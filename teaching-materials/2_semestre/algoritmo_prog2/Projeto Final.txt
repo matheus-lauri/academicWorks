@@ -1,0 +1,23 @@
+Primeira parte (20%): Entregar os 2 primeiros desafios do tutorial create with code
+
+DESAFIO_1
+
+DESAFIO 2
+
+obs: entregar apenas os scripts dos desafios
+
+ 
+
+Segunda parte (80%)
+
+Portar o labirinto da M2 para o unity 3D com toda jogabilidade disponível.
+
+OBS: Vocês terão que implementar funcionalidades novas (LIVRE).
+
+ 
+
+ 
+
+Segue o tutorial no link, a seguir, que ensina a dividir a tela para 2 jogadores diferentes (spoiler: é muito simples)
+
+LINK_DIVIDIR_TELA
