@@ -1,0 +1,34 @@
+﻿Conforme a narrativa da história segue, você definirá qual das escolhas o seu personagem irá fazer. Algumas ações darão certo, outras estão fadadas a dar errado. Ainda, algumas das escolhas serão baseadas em sorte, como ações furtivas ou ataques baseadas numa rodada de um d20 (dado de 20 lados).
+
+Seus status serão baseados na sua origem e nos seus itens atuais, com exceção da sua sorte, que será definida por… sorte. Os status serão:
+
+Vida: Levar dano diminuirá o valor, ao chegar ao 0 você morre.
+
+Ataque: A quantidade de dano que você causará em um acerto de ataque, embora o valor infligido poderá variar em circunstâncias específicas.
+
+Defesa: Sua capacidade de suportar dano. Para um inimigo lhe infligir dano, ele terá que tirar um valor de acerto superior a sua defesa.
+
+Furtividade: Um valor adicional para dar vantagem a aqueles que preferem espreitar nas sombras do que arriscar um combate direto.
+
+Sorte: Às vezes, o seu destino poderá depender de um giro de uma moeda… ou de um dado. As chances de encontrar um inimigo perigoso diminuirá em casos de boa sorte. Sorte também dará um valor de vantagem e qualquer ação ou eventos aleatórios, adicionando um valor fixo às suas jogadas equivalente a sorte/4 (arredondando para baixo).
+
+Interface do jogo:
+
+“Região onde você está”
+
+(Descrição dos eventos ou diálogo)
+
+Escolhas ou respostas:
+
+1- “Resposta 1”
+
+2- “Resposta 2”
+
+3- ”Resposta 3”
+
+4- ”Resposta 4”
+
+(Você definirá sua escolha aqui. Como parâmetro, digitar 0 abrirá o menu de opções, que lhe permitirá abrir o inventário ou sair do jogo. (Qualquer outro número resultará numa perda de ação ou não resultará em nada)
+
+Morte: Em caso de morte, você será encaminhado para o menu principal.
+

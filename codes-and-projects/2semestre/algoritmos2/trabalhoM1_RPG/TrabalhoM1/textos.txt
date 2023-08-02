@@ -1,0 +1,763 @@
+﻿lobo_final
+*O lobo salta em você no seu pescoço com seus dentes, fazendo você sangrar até a morte.
+
+lobo_crit
+*O lobo agarra seu braço por alguns segundos, quando você consegue tirar o ferimento abre um pouco mais.
+
+lobo_dano
+*O lobo morde a sua perna, você consegue afastá-lo em seguida.
+
+lobo_erro
+*O lobo falha em tentar lhe ferir.
+
+cav_lobo_final
+*Você chuta a cara do lobo, no aproveita o atordoamento para decapitá-lo com sua espada.
+
+cav_lobo_crit
+*Você executa um corte efetivo no torso do lobo, criando um ferimento grave.
+
+cav_lobo_dano
+*Você balança a sua espada e executa um ferimento superficial no lobo.
+
+cav_lobo_erro
+*Você tenta executar um ataque, mas perde o equilíbrio no processo.
+
+cac_lobo_final
+*Você acerta um flecha bem no centro da garganta do lobo, ele cai no chão abatido.
+
+cac_lobo_crit
+*Sua flecha perfura o corpo do lobo e se mantém fincada nele.
+
+cac_lobo_dano
+*Sua flecha causa um ferimento superficial no lobo.
+
+cac_lobo_erro
+*Você erra a mira, sua flecha não atinge o lobo.
+
+mer_lobo_final
+*Você atinge o crânio do lobo com o machado, ele cai abatido.
+
+mer_lobo_crit
+*Você acerta o torso do lobo, um ferimento enorme é aberto no animal.
+
+mer_lobo_dano
+*Seu machado acerta de raspão no lobo, mas já causou um ferimento significante.
+
+mer_lobo_erro
+*O lobo se esquiva do seu golpe.
+
+goblin_final
+*O goblin pula em cima de você e o derruba no chão, em seguida ele finca a espada no seu peito.
+
+goblin_crit
+*O goblin corta uma parte exposta do seu peito, inflingindo um ferimento grande.
+
+goblin_dano
+*O goblin balança a espada e lhe acerta na perna.
+
+goblin_erro
+*O goblin gira com a espada, perde o equilíbrio e cai no chão.
+
+cav_goblin_final
+*Você estoca com a espada bem no coração do goblin, ele cai no chão abatido.
+
+cav_goblin_crit
+*Você efetua um corte na diagonal com sua espada no peito do goblin, causando nele ferimento fortes.
+
+cav_goblin_dano
+*Você balança a sua espada e cria um corte leve no ombro do goblin.
+
+cav_goblin_erro
+*Você tenta acertar o goblin, mas ele pula para longe na hora.
+
+cac_goblin_final
+*Sua flecha vai parar na garganta do goblin, ele agoniza de dor até cair no chão morto.
+
+cac_goblin_crit
+*Você acerta uma flecha no joelho do goblin, ele grita e lamenta por numa mais poder sair numa aventura de novo.
+
+cac_goblin_dano
+*Você atinge uma flecha no ombro do goblin.
+
+cac_goblin_erro
+*Sua flecha pega na árvore atrás do goblin, talvez você tenha confundido o alvo.
+
+mer_goblin_final
+*Você derruba o goblin no chão, em seguida corta sua cabeça como um açougueiro corta a cabeça de um animal.
+
+mer_goblin_crit
+*Você quebra uma costela do goblin com o machado.
+
+mer_goblin_dano
+*Você acerta a perna do goblin.
+
+mer_goblin_erro
+*Você perde o equílibrio na hora de tentar atingir o goblin.
+
+urso_final
+*O urso agarra você e quebra cada osso do seu corpo.
+
+urso_crit
+*O urso acerta um tapa na sua cabeça, você perde cai no chão e bate a cabeça numa pedra.
+
+urso_dano
+*O urso acerta o seu braço.
+
+urso_erro
+*O urso tenta te atacar, mas você es esquiva para trás antes que o ataque lhe atingisse.
+
+cav_urso_final
+*O urso abre a boca para rugir, você enfia a espada bem no fundo da garganta dele.
+
+cav_urso_crit
+*Você causa um corte na cabeça do lobo, seu crânio o protegeu de uma fatalidadde, mas o ferimento ainda foi significativo.
+
+cav_urso_dano
+*Seu corte pega no torso do urso.
+
+cav_urso_erro
+*A pele do urso é grossa e o protegeu do seu corte.
+
+cac_urso_final
+*Você atinge uma flecha no olho do urso, ele cai abatido no chão.
+
+cac_urso_crit
+*Você atinge uma ferida aberta na pele do urso com a flecha.
+
+cac_urso_dano
+*Você atinge uma flecha no urso, ela prende na superfície de sua pele.
+
+cac_urso_erro
+*Sua flecha não consegue perfurar a pele do urso.
+
+mer_urso_final
+*Você quebra a mandíbula do urso com o seu machado, ele cai abatido.
+
+mer_urso_crit
+*Você inflinge um golpe profundo no urso.
+
+mer_urso_dano
+*Seu machado causa um ferimento superficial no urso devido a sua pele grossa.
+
+mer_urso_erro
+*Seu machado não consegue passar a pele do urso.
+
+esqueleto_final
+*O esqueleto finca a espada no seu torso.
+
+esqueleto_crit
+*O esqueleto efetua um corte doloroso em você.
+
+esqueleto_dano
+*O esqueleto causa um corte superficial em você.
+
+esqueleto_erro
+*O braço do esqueleto quebra na hora de tentar te atacar, ele gasta o turno atrás de remontar o braço.
+
+cav_esqueleto_final
+*Você gira sua espada através do esqueleto, nesse momento ele desmonta e cai no chão.
+
+cav_esqueleto_crit
+*Você acertao esqueleto, suas costelas quebram, embora ele continuar de pé o feitiço parece ter quebrado um pouco.
+
+cav_esqueleto_dano
+*Você acerta o esqueleto, ele quase cai devido a sua falta de equilibrio.
+
+cav_esqueleto_erro
+*O esqueleto é tão magro sua lâmina passa entre suas costelas.
+
+cac_esqueleto_final
+*Sua flecha acerta o olho do esqueleto, isso parece ter quebrado o feitiço que o mantia de pé.
+
+cac_esqueleto_crit
+*Sua flecha acerta causa uma rachadura no crânio do esqueleto. 
+
+cac_esqueleto_dano
+*Sua flecha acerta os ossos do esqueleto, você não sabe dizer se isso foi muito efetivo.
+
+cac_esqueleto_erro
+*Sua flecha atravessa os esqueleto sem atingi-lo.
+
+mer_esqueleto_final
+*Você estrassalha o crânio do esqueleto ao atingi-lo com o machado.
+
+mer_esqueleto_crit
+*As costelas do esqueleto quebram ao serem acertadas pelo seu machado.
+
+mer_esqueleto_dano
+*O esqueleto perde o equílibrio ao ser atingido pelo seu machado.
+
+mer_esqueleto_erro
+*Por algum motivo, o esqueleto é muito mais difícil de atingir do que você pensava.
+
+aranha_final
+*A aranha ejeta veneno paralizante em você, após isso você só consegue ver tudo ficando mais e mais escuro.
+
+aranha_crit
+*A aranha ejeta uma leve quantidade de veneno em você.
+
+aranha_dano
+*A aranha lhe ataca com suas presas.
+
+aranha_erro
+*As presas da aranha não conseguem chegar à sua pele.
+
+cav_aranha_final
+*Você enfia sua lâmina bem no centro do peito da aranha.
+
+cav_aranha_crit
+*Você corta o abdômen da aranha, ela solta um grito agoniante.
+
+cav_aranha_dano
+*Você gera um corte efetivo na aranha.
+
+cav_aranha_erro
+*Essa coisa é tão assustadora que você congela na hora de atacar.
+
+cac_aranha_final
+*Você acerta uma flecha bem entre as duas presas da aranha.
+
+cac_aranha_crit
+*Você acerta uma flecha no abdômen da aranha.
+
+cac_aranha_dano
+*Sua flecha acerta uma das pernas da aranha.
+
+cac_aranha_erro
+*Essa coisa é tão assustadora que você congela na hora de atacar
+
+mer_aranha_final
+*Você quebra a cabeça da aranha com seu machado, ela cai abatida.
+
+mer_aranha_crit
+*Você abre um ferimento no abdômen da aranha.
+
+mer_aranha_dano
+*Você acerta uma das pernas da aranha com o machado.
+
+mer_aranha_erro
+*Essa coisa é tão assustadora que você congela na hora de atacar.
+
+gargula_final
+*A gárgula esmaga a sua cabeça com a maça.
+
+gargula_crit
+*A gargula lhe acerta com a maça, lhe derrubando no chão.
+
+gargula_dano
+*A gargula lhe acerta com a maça no ombro.
+
+gargula_erro
+*Você conseguiu desviar do ataque da gárgula.
+
+cav_gargula_final
+*Você corta a cara da gárgula, a griatura começa a virar pedra novamente e a se desintegrar.
+
+cav_gargula_crit
+*Você corta o peito da gárgula com sua espada.
+
+cav_gargula_dano
+*Você acerta uma das asas da gárgula.
+
+cav_gargula_erro
+*A gárgula salta para longe de sua lâmina.
+
+cac_gargula_final
+*Você acerta o coração da gárgula, em seguida ela se torna pedra novamente e se desintegra com o vento.
+
+cac_gargula_crit
+*Você acerta uma flecha no ombro da gárgula, ela fica presa lá.
+
+cac_gargula_dano
+*Você acerta uma flecha na gárgula, ela gera um ferimento superficial.
+
+cac_gargula_erro
+*A gárgula bate as asas, o vento desvia o trageto da flecha.
+
+mer_gargula_final
+*Seu machado vai parar no escoço da gárgula, ela cai de joelhos, começa a virar pedra novamente e se desintegrar.
+
+mer_gargula_crit
+*Você acerta a barriga da besta com seu machado, ela solta um grito de dor.
+
+mer_gargula_dano
+*Você atinge o ombro da gárgula com o machado.
+
+mer_gargula_erro
+*Você perde o equilíbrio ao tentar atacar a gárgula.
+
+drag_final
+*O dragão lhe agarra e te leva até o céu, em seguida solta você lá de cima.
+
+drag_crit
+*O dragão atinge você com uma rajada de fogo.
+
+drag_dano
+*O dragão passa de rasante golpeia você contra a parede de uma das ruínas no impacto.
+
+drag_erro
+*O dragão solta uma rajada de fogo, você consegue achar uma proteção a tempo.
+
+cav_drag_final
+*O dragão pousa na sua frente e se prepara para soltar fogo, você finca a espada dentro da garganta dele e ele cai abatido com o feitiço quebrado.
+
+cav_drag_crit
+*O dragão passa de rasante para tentar te derrubar, você se abaixa e corta o torso do dragão.
+
+cav_drag_dano
+*O dragão passa de rasante para tentar te derrubar, você consegue atingir a perna dele com um corte.
+
+cav_drag_erro
+*O dragão está muito longe para você conseguir fazer algo.
+
+cac_drag_final
+*O dragão passa por cima de você tentando lhe atingir com fogo, antes que isso contecesse você atinge uma flecha na garganta dele, o fazendo cair com o feitiço quebrado.
+
+cac_drag_crit
+*Você atinge uma parte aberta do corpo do dragão com a flecha.
+
+cac_drag_dano
+*Você atinge a asa do dragão em pleno voo, mas ele não chegou a cair.
+
+cac_drag_erro
+*O veto feto pela asa do dragão desvia o trajeto da flecha.
+
+mer_drag_final
+*O dragão passa de rasante para tentar te derrubar, você golpeia a cabeça dele no trajeto e ele cai abatido com o feitiço quebrado.
+
+mer_drag_crit
+*O dragao pousa em uma das casas, você joga o machado na cabeça dele, em seguida você o pega de volta após cair na sua frente.
+
+mer_drag_dano
+*Ao dragão passar de rasante, você aceta a perna dele.
+
+mer_drag_erro
+*O dragão pousa em cima de uma das casas, você tenta acertá-lo com o machado mas acaba pegando na parede, você o pega em seguida.
+
+drag_lich_final
+*O dragão encendeia o lich até desfazer o cristal e desintegrar o seu corpo.
+
+drag_lich_crit
+*O dragão encendeia o altar, atingindo o lich e o cristal.
+
+drag_lich_dano
+*O dragão passa de rasante no altar, atingindo o lich e o cristal. 
+
+drag_lich_erro
+*O dragão não consegue atingir nada.
+
+geral_cristal_final
+*Você acerta o cristal, ele estilhaça.
+
+geral_cristal_crit
+*Você acerta o cristal, uma rachadura enorme surge nela
+
+geral_cristal_dano
+*Você acerta, uma pequena rachadura surge no cristal.
+
+cav_cristal_erro
+*Você erra ao golpear o cristal.
+
+lich_final
+*O lich lança um raio negro em cima de você. Você foi desintegrado.
+
+lich_crit
+*O lich lança um feitiço poderoso em você, seu corpo queima.
+
+lich_dano
+*O lich levanta um pedra com magia e atira em você.
+
+lich_erro
+*O lich levanta uma pedra com magia, mas falha ao tentar te acertar.
+
+geral_lich_crit
+*Você acerta o lich, não o machucou, porém o parece ter atrasado bastante o ritual.
+
+geral_lich_dano
+*Você acerta o lich, não o machucou, porém o parece ter atrasado o ritual.
+
+geral_lich_erro
+*Você acerta o lich, não o machucou.
+
+
+machado_aprimorado
+No baú há um machado feito de metal refinado, parece ser bem melhor que o seu atual.
+
+bau_da_tumba
+Você abre o baú que há ao lado da tumba, nele há umas escrituras que aparentam ter um propósito sombrio.
+Por parecer importante, você decide pegar para você. No baú também há 15 moedas de ouro e 2 poções de
+cura, nas quais você não vê motimo para não pegar.
+
+inicio_mercenario
+Você começa na floresta seguindo caminho até uma caverna. Aparentemente você foi contratado para explorá-la
+e descobrir o motivo dos aventureiros que foram para ela desapareceram.
+
+Ao chegar na entrada, você avista um aventureiro caído no chão agonizando. O que fazer?
+
+1- Ignorá-lo e continuar para a caverna.
+
+2- Ouvir o que ele tem a dizer.
+
+aventureiro_ferido
+"Por favor! não entre naquele maldito lugar! Os mortos levantaram e agora andam naquelas tumbas, o fim de todos
+está chagando, eu estou lhe dizendo! É tarde demais para mim, mas pelo seu bem, ache um lugar longe daqui."
+
+O aventureiro dá os seus últimos suspiros e finalmente descansa.
+
+O que fazer?
+
+1- Continuar para a caverna
+
+2- Voltar para a vila onde lhe contrataram
+
+desc_caverna
+A caverna segue num túnel escuro, eventualmente chega numa área mais aberta iluminada por uma pequena greta onde
+passa a luz do Sol. No fundo você avista a entrada de algo que aparenta ser uma tumba, você segue em direção para lá.
+
+desc_caverna_visitada
+Você voltou a caverna, está exatamente igual à ultima vez que você visitou.
+
+encontro_urso
+Na clareira da caverna você avista um urso, ele não parece ter lhe visto ainda.
+
+O que fazer?
+
+1- Lutar
+
+2- Passar furtivamente
+
+3- Fugir
+
+desc_tumba
+Você segue um corredor cheio de jaulas vazias até chegar numa sala com um túmulo vazio no meio. Na sala há também,
+um empilhado de esqueletos no chão e um baú no canto da sala.
+
+encontro_esqueletos
+Dois esqueletos no chão levantam sobre um feitiço e segurando suas espadas curtas. Não há onde correr,
+você precisa enfrentá-los.
+
+ser_estranho_descricao
+há um ser estranho nas jaulas que você não havia visto antes e ele começa
+a falar com você.
+
+ser_estranho_descricao_depois
+Ele está ali ainda.
+
+ser_estranho_sumiu
+Não há mais ninguém nas jaulas.
+
+ser_estranho_primeiro
+"Você... Humano... Ele vai querer usar você... O que ele vai lhe pedir
+irá abrir mão do poder que você poderia ter... Mas posso dar o no
+lugar... faça o que ele pedir e traga-o para mim concertado junto
+com a adaga que aquele ladrão pegou e um colar que o povo da montranha
+mantia... tragam-os para mim se você quer poder..."
+
+ser_estranho_primeiro_vila
+"Você está ajudando o mago... Alquimista? Já é um mago para mim...
+Mas me fale? Você quer mesmo salvar a todos e abrir mão do póder
+que você poderia ter? Pense nisso... Se quiser o que ele está
+tentando tirar de você, concerte o cristal e o traga para mim...
+junto com uma adaga que aquele outro ladrão pegou e o colar que
+o povo da montanha mantia... tragam-os e você terá poder..."
+
+ser_estranho_sem_itens
+"Volte quando você os tiver..."
+
+ser_estranho_final
+"Você está aqui... Com eles... O mago o quer para derrotar o Lich...
+mas você pode se tornar o novo, se desejar... me deixe ajudá-lo
+e lhe digo como fazer..."
+
+Permitir?
+
+1-Sim
+
+2-Não
+
+ser_estranho_final_aceito
+O ser estranho faz o cristal mudar de cor para um tom sombrio,
+o colar que você têm também não está mais quebrado.
+
+"Agora derrote o lich e usurpe a função dele... ponha o cristal
+no altar... bote o colar... e use a faca em si mesmo, você morrerá,
+mesmo assim viverá para sempre..."
+
+O ser estranho desaparece nas sombras.
+
+ser_estranho_final_negado
+"Certo... volte aqui quando estiver pronto..."
+
+inicio_cacador
+Você sai de sua vila e segue para a floresta na busca de algo para caçar.
+É um dia ensolarado e você decide ir bem fundo na floresta.
+
+Você encontra um cervo, ele se movimenta de um jeito estranho, como
+se estivesse doente.
+
+cervo_morto
+Você checa o cervo, aparentemente ele está de alguma forma envenenado,
+já fede como se estivesse morto há dias.
+
+seguir_servo
+Você segue o cervo há uma distância segura, ele começa a andar para dentro
+da floresta. Em certo momento ele para de andar e cai morto no chão. Aparentemente
+ele estava envenenado mesmo. No fundo você avista uma cabana, por já estar longe da
+vila, você decide explorá-la.
+
+seguir_floresta
+Você caminha na floresta até avistar uma cabana, a grama do local parece mais escura
+do que o resto da floresta.
+
+encontro_lobos
+Quando você se aproxima da cabana, antes que você percebesse, você é cercado cercado
+por três lobos selvagens. Você se prepara para o combate.
+
+desc_cabana_primeira
+Você entra na cabana, há um cadáver no canto da sala, com uma espécie de adaga na mão
+dele, em cima da escrivania há um cristal de coloração azul junto com umas escrituras que
+você não consegue entender muito bem, mas aparenta ser sobre o cristal.
+
+pegou_cristal
+Você pegou o cristal e os registros dele.
+
+pegou_adaga
+Você pegou a adaga do cadáver.
+
+saiu_da_cabana
+Você saiu da cabana em caminho para a vila.
+
+encontro_goblins
+Na volta para a vila você se depara com três goblins. Um deles é verde e segura uma
+espada longa desproporcional com o seu peso, os outros dois seguram espadas curtas,
+sendo um deles com pele rosada e o outro pálido.
+
+inicio_cavaleiro
+Na sua jornada longe do reino em que você nasceu, você acabou numa vila onde foi contratado
+para escoltar um grupo de viajantes até a capital. O caminho de vocês passa próximo de uma
+montanha, na qual hávia um antigo reino que hoje está em ruínas.
+
+Entre as rochas do caminho em que vocês estão passando, surge uma enorme aranha que quebra
+o vagão. Os camponeses fogem da aranha enquanto você fica de frente para ela.
+
+cavaleiro_aranha_fugiu
+Vocês despistaram a aranha, os camponeses olha para você com cara de decepção. No entanto
+eles dizem que irão voltar para a vila e preparar outro vagão, enquanto isso eles lhe
+recomendam ver o que está acontecendo para essa aranha ter descido das montanhas, que
+provavelmente tem algo relacionado as ruínas. Caso você não queira arriscar, eles
+recomendam também ir ver o alquimista na vila, ele deve saber algo sobre.
+
+cavaleiro_aranha_matou
+Após a sua vitória, os camponses agradescem profundamente por ter os salvado do monstro.
+No entanto eles dizem que irão voltar para a vila e preparar outro vagão, enquanto isso
+eles lhe recomendam ver o que está acontecendo para essa aranha ter descido das montanhas,
+que provavelmente tem algo relacionado as ruínas. Caso você não queira arriscar, eles
+recomendam também ir ver o alquimista na vila, ele deve saber algo sobre.
+
+aranha_encontro_geral
+Uma aranha aparece nas planícies ao caminho das ruínas para tentar lhe devorar, você
+não tem mais rota de fulga, então se prepara para lutar.
+
+ruinas_descricao
+Você entra nas ruínas, todas as casas em volta são de pedra, mas no momento não parece
+possível viver em nenhuma delas. Você sobe a estrada que leva até a montanha até chegar
+num portão fechado.
+
+encontro_gargulas
+Do topo dos muros, duas estátuas começam a se despedaçar até se tornarem criaturas vivas.
+As duas gárgulas descem até o chão voando e segurando clavas, você está encurralado por elas
+e se prepara para lutar.
+
+caminho_torre
+Você segue o caminho ao lado dos muros da cidade, por fim você acaba na borda do reino.
+Ainda não há entrada, mas você encontra uma torre destruída que aparenta ter pertencido
+a um mago. Ao entrar nela você só vê um móvel inteiro, fora isso as escadas e os móveis 
+estão destruídos...
+
+livro_anti_necro
+Você encontrou um livro com escrituras estranhas, não há titulo na capa, mas uma frase,
+"A natureza da morte é a pureza da vida".
+
+explorar_cidade
+Você continua explorando a ruína, entre os escombros de uma das casas você encontra um
+colar negro quebrado. Você pega ele e decide retornar para a Vila.
+
+alquimista_primeiro_floresta
+"Oh olá aventureiro, como posso ajudá-lo?"
+
+"Hmm, você diz ter encontrado esse cervo na floresta? Isso pode ser um problema...
+Há algumas semanas eu estava visitando um velho amigo, ele era um clérigo, ele estava estudando
+algo interessante, porém perigoso. Ele estava usando um cristal que aprisoana a alma de um Lich
+para descobrir uma fonte de cura para os animais e de rendenção para os mortos-vivos. Eu disse
+que o feitiço que bloqueava o contato do Lich com o seu corpo era frágil, mas ele não me deu ouvidos."
+
+"Creio que devo prever o pior, preciso de sua ajuda, aventureiro. Quando você estiver preparado, busque
+algumas coisas para mim, e então eu acabarei o objetivo que o clérigo estava tentando alcançar."
+
+"Traga o cristal que ele estava tentando criar, deve estar em sua cabana na floresta, e traga também
+os registros dele sobre isso. Ele também estava procurando por outros dois registros na última vez que
+o vi, um deles é sobre necromancia e está nas cavernas, o outro é sobre magias de purificação e está
+em algum lugar nas ruínas da montanha. Pelo nosso bem, por favor, traga-o para mim."
+
+alquimista_primeiro_caverna
+"Oh olá aventureiro, como posso ajudá-lo?"
+
+"Hmm, os mortos-vivos levantaram nas cavernas? Isso é um grande problema...
+Há algumas semanas eu estava visitando um velho amigo, ele era um clérigo, ele estava estudando
+algo interessante, porém perigoso. Ele estava usando um cristal que aprisoana a alma de um Lich
+para descobrir uma fonte de cura para os animais e de rendenção para os mortos-vivos. Eu disse
+que o feitiço que bloqueava o contato do Lich com o seu corpo era frágil, mas ele não me deu ouvidos."
+
+"Creio que devo prever o pior, preciso de sua ajuda, aventureiro. Quando você estiver preparado, busque
+algumas coisas para mim, e então eu acabarei o objetivo que o clérigo estava tentando alcançar."
+
+"Traga o cristal que ele estava tentando criar, deve estar em sua cabana na floresta, e traga também
+os registros dele sobre isso. Ele também estava procurando por outros dois registros na última vez que
+o vi, um deles é sobre necromancia e está nas cavernas que você vizitou, o outro é sobre magias de
+purificação e está em algum lugar nas ruínas da montanha. Pelo nosso bem, por favor, traga-o para mim."
+
+alquimista_primeiro_ruina
+"Oh olá aventureiro, como posso ajudá-lo?"
+
+"Hmm, os monstros das montanhas estão nos invadindo... Deve ter algo relacionado ao altar...
+Há algumas semanas eu estava visitando um velho amigo, ele era um clérigo, ele estava estudando
+algo interessante, porém perigoso. Ele estava usando um cristal que aprisoana a alma de um Lich
+para descobrir uma fonte de cura para os animais e de rendenção para os mortos-vivos. Eu disse
+que o feitiço que bloqueava o contato do Lich com o seu corpo era frágil, mas ele não me deu ouvidos.
+Provavelmente o motivo dos monstros terem fugido é a presença do Lich lá."
+
+"Creio que devo prever o pior, preciso de sua ajuda, aventureiro. Quando você estiver preparado, busque
+algumas coisas para mim, e então eu acabarei o objetivo que o clérigo estava tentando alcançar."
+
+"Traga o cristal que ele estava tentando criar, deve estar em sua cabana na floresta, e traga também
+os registros dele sobre isso. Ele também estava procurando por outros dois registros na última vez que
+o vi, um deles é sobre necromancia e está nas cavernas, o outro é sobre magias de
+purificação e está em algum lugar nas ruínas em que você estava. Pelo nosso bem, por favor, traga-o para mim."
+
+alquimista_primeiro_cristal
+"Oh olá aventureiro, como posso ajudá-lo?"
+
+"Oh, morto na cabana? Isso é um desastre! Se for o que eu estou pensando nós temos um problemão...
+Há algumas semanas eu estava visitando um velho amigo, ele era o clérigo que você viu, ele estava estudando
+algo interessante, porém perigoso. Ele estava usando um cristal que aprisoana a alma de um Lich
+para descobrir uma fonte de cura para os animais e de rendenção para os mortos-vivos. Eu disse
+que o feitiço que bloqueava o contato do Lich com o seu corpo era frágil, mas ele não me deu ouvidos.
+Provavelmente o motivo de sua morte foi o Lich buscando seu cristal de volta."
+
+"Creio que devo prever o pior, preciso de sua ajuda, aventureiro. Quando você estiver preparado, busque
+algumas coisas para mim, e então eu acabarei o objetivo que o clérigo estava tentando alcançar."
+
+"Você já trouxe cristal que ele estava tentando criar, mas ainda tem mais. Traga também
+os registros dele sobre isso. Ele também estava procurando por outros dois registros na última vez que
+o vi, um deles é sobre necromancia e está nas cavernas, o outro é sobre magias de
+purificação e está em algum lugar nas ruínas da montanha. Pelo nosso bem, por favor, traga-o para mim."
+
+alquimista_padrao
+"Por favor, volte quando tiver tudo o que eu pedi..."
+
+alquimista_todos_itens
+"Oh você os trouxe! Me dê rápido! Terminarei o trabalho dele."
+
+O alquimista faz um ritual e por fim a orbe azul brilha numa luz branca.
+
+"Tome o cristal, aventureiro, você é quem confio para essa jornada agora!
+Vá até as ruínas e derrote o Lich, após isso bote o cristal no altar, ele
+irá reverter a maldição que os mortos vivos estão sofrendo. Para atravessar
+os portões, lhe darei esse artefato explosivo, bote nos pés do portão e então
+você abrirá passagem. Rápido, antes que seja tarde demais!"
+
+alquimista_pos
+"Confio em você, aventureiro!"
+
+vila_entrada
+Você chegou na vila, está tão pacífica quando a hora que você saiu.
+
+estalagem_entrada
+Ao entrar, uma pessoa começa a falar...
+"Olá aventureiro bem vindo a nossa estalagem, gostaria de descansar por
+uma noite para recuperar as energias? São apenas 5 moedas de ouro..."
+
+fala_entrada_loja
+Você entra na loja, o comerciante começa a falar...
+
+lojista_fala1
+"Olá aventureiro! Gostaria de comprar alguma coisa? Tenho certeza que
+algo será útil para a sua viagem!"
+
+lojista_fala2
+"Que bom vê-lo de novo aventureiro! O que você vai comprar hoje?"
+
+tabela_loja_cac
+Loja:
+1-Poção de cura(20 vida): 5 de ouro
+2-Arco Celeste(15 dano): 40 de ouro
+3-Armadura de escamas(14 de defesa): 50 de ouro
+4 - Sair da loja
+
+tabela_loja_mer
+Loja:
+1-Poção de cura(20 vida): 5 de ouro
+2-Executor(13 de dano): 40 de ouro
+3-Armadura de Cota(16 de defesa): 50 de ouro
+4 - Sair da loja
+
+tabela_loja_cav
+Loja:
+1-Poção de cura(20 vida): 5 de ouro
+2-Julgamento Real(11 de dano): 40 de ouro
+3-Armadura de placas(18 de defesa): 50 de ouro
+4 - Sair da loja
+
+final_lich
+O lich grita de agonia enquanto perde o contato com esse mundo, o céu escuro agora abre
+com os raios de sol e, ao botar o cristal dourado no altar, os mortos-vivos descansam novamente...
+
+Parabéns! Você salvou o mundo!
+
+Obrigado por jogar.
+
+final_lich_ruim
+O lich grita de agonia enquanto perde o contato com esse mundo, o céu fica cada vez mais e mais
+escuro, você bota o cristal no topo do altar e faz o que tem que fazer.
+
+Você sente dor, e tudo vai ficando cada vez mais e mais escuro. De repente você acorda novamente
+um exército de mortos está adiante de você aos seus serviços, você pode sentir o poder fluindo de
+si. Agora os mortos têm um novo mestre.
+
+Parabéns! Você destruiu o mundo!
+
+Obrigado por jogar.
+
+aparicao_drag
+Você passa pelos portões, em seguida a entrada desmorona atrás de você, há uma grande cidade entre
+você e a entrada do jardim com o altar do Lich.
+
+Durante o caminho até os jardins, um Dragão morto-vivo aparece voando o local, ele não viu você ainda.
+
+drag_furt_falha
+O dragão nota você esgueirando até os jardins, ele vem atrás de você para o impedir.
+
+drag_furt_sucesso
+Voce esgueira pela cidade com cuidado para não ser visto pelo dragão, em certo momento ele pousa na
+casa em que você está e você para por alguns minutos. Quando ele volta a voar você segue o caminho
+para os jardins até finalmente conseguir.
+
+drag_fugir
+Você corre desesperadamente pela cidade, o dragão voa atrás de você. A fera soltou a primeira rajada
+de fogo, mas você conseguiu desviar. No entanto, você é atingido pela segunda rajada, assim é ferido,
+mas consegue chegar aos jardins.
+
+drag_controle
+Você levanta o cristal em direção ao dragão, ele submete ao poder do cristal e de seu mestre e o deixa
+passar. Você chega nos jardins...
+
+drag_entrada_inimigo
+O dragão no qual você tinha fugido apareceu na luta também.
+
+drag_entrada_aliado
+O dragão aparece para lutar ao seu lado contra o Lich.
+
+inicio_lich
+Ao entrar nos jardins, você encontra um esqueleto negro de olhos púrpuras de frente para a mesa de ritual,
+é o Lich. Um cristal negro flutua em cima da mesa, e uma estranha energia roda no jardim, ele está fazendo
+um ritual, e você não pode deixá-lo terminar.
