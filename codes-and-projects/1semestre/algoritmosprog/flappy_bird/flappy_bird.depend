@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1654708336 source:c:\users\matheus e gustavo\documents\projetos_codeblocks\flappy_bird\main.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	<conio.h>
+
