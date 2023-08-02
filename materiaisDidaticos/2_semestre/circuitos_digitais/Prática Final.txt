@@ -1,0 +1,11 @@
+A M3 será composta por 2 trabalhos finais
+
+TF_PARTE1 e TF_PARTE2
+
+ 
+
+M3 = (TF_PARTE1 + TF_PARTE2) / 2 
+
+idêntico à
+
+M3 = (5*TF_PARTE1 + 5*TF_PARTE2) / 10
