@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1654211840 source:c:\users\matheus e gustavo\documents\projetos_codeblocks\exercicio39matrizes\main.cpp
+	<iostream>
+	<time.h>
+

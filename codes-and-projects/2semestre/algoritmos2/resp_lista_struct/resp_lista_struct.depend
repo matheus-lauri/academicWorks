@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1660927691 source:c:\users\matheus e gustavo\documents\projetos_codeblocks\resp_lista_struct\main.cpp
+	<iostream>
+	<time.h>
+

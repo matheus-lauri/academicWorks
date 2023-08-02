@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1657157469 source:c:\users\matheus e gustavo\documents\projetos_codeblocks\jogo_da_memoria\main.cpp
+	<iostream>
+	<locale.h>
+	<time.h>
+
