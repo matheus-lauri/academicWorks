@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1666394275 source:c:\users\matheus e gustavo\documents\projetos_codeblocks\trabalho_labirinto\main.cpp
+	<iostream>
+	<fstream>
+	<conio.h>
+	<windows.h>
+	<time.h>
+	<ctime>
+
