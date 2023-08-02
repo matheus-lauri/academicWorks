@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1666323251 source:c:\users\matheus e gustavo\documents\projetos_codeblocks\teste_rank\main.cpp
+	<iostream>
+	<fstream>
+	<conio.h>
+	<windows.h>
+	<time.h>
+	<ctime>
+	<string>
+	<stdio.h>
+	<stdbool.h>
+	<stdlib.h>
+	<locale.h>
+

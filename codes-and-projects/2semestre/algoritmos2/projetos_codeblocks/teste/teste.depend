@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1652134932 source:c:\users\matheus e gustavo\documents\projetos_codeblocks\teste\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+
