@@ -1,0 +1,718 @@
+|calculo_PC
+o_S[0] <= add_sub:inst.o_S[0]
+o_S[1] <= add_sub:inst.o_S[1]
+o_S[2] <= add_sub:inst.o_S[2]
+o_S[3] <= add_sub:inst.o_S[3]
+o_S[4] <= add_sub:inst.o_S[4]
+o_S[5] <= add_sub:inst.o_S[5]
+o_S[6] <= add_sub:inst.o_S[6]
+o_S[7] <= add_sub:inst.o_S[7]
+o_S[8] <= add_sub:inst.o_S[8]
+o_S[9] <= add_sub:inst.o_S[9]
+o_S[10] <= add_sub:inst.o_S[10]
+o_S[11] <= add_sub:inst.o_S[11]
+o_S[12] <= add_sub:inst.o_S[12]
+o_S[13] <= add_sub:inst.o_S[13]
+o_S[14] <= add_sub:inst.o_S[14]
+o_S[15] <= add_sub:inst.o_S[15]
+o_S[16] <= add_sub:inst.o_S[16]
+o_S[17] <= add_sub:inst.o_S[17]
+o_S[18] <= add_sub:inst.o_S[18]
+o_S[19] <= add_sub:inst.o_S[19]
+o_S[20] <= add_sub:inst.o_S[20]
+o_S[21] <= add_sub:inst.o_S[21]
+o_S[22] <= add_sub:inst.o_S[22]
+o_S[23] <= add_sub:inst.o_S[23]
+o_S[24] <= add_sub:inst.o_S[24]
+o_S[25] <= add_sub:inst.o_S[25]
+o_S[26] <= add_sub:inst.o_S[26]
+o_S[27] <= add_sub:inst.o_S[27]
+o_S[28] <= add_sub:inst.o_S[28]
+o_S[29] <= add_sub:inst.o_S[29]
+o_S[30] <= add_sub:inst.o_S[30]
+o_S[31] <= add_sub:inst.o_S[31]
+i_DATA[0] => add_sub:inst.i_A[0]
+i_DATA[1] => add_sub:inst.i_A[1]
+i_DATA[2] => add_sub:inst.i_A[2]
+i_DATA[3] => add_sub:inst.i_A[3]
+i_DATA[4] => add_sub:inst.i_A[4]
+i_DATA[5] => add_sub:inst.i_A[5]
+i_DATA[6] => add_sub:inst.i_A[6]
+i_DATA[7] => add_sub:inst.i_A[7]
+i_DATA[8] => add_sub:inst.i_A[8]
+i_DATA[9] => add_sub:inst.i_A[9]
+i_DATA[10] => add_sub:inst.i_A[10]
+i_DATA[11] => add_sub:inst.i_A[11]
+i_DATA[12] => add_sub:inst.i_A[12]
+i_DATA[13] => add_sub:inst.i_A[13]
+i_DATA[14] => add_sub:inst.i_A[14]
+i_DATA[15] => add_sub:inst.i_A[15]
+i_DATA[16] => add_sub:inst.i_A[16]
+i_DATA[17] => add_sub:inst.i_A[17]
+i_DATA[18] => add_sub:inst.i_A[18]
+i_DATA[19] => add_sub:inst.i_A[19]
+i_DATA[20] => add_sub:inst.i_A[20]
+i_DATA[21] => add_sub:inst.i_A[21]
+i_DATA[22] => add_sub:inst.i_A[22]
+i_DATA[23] => add_sub:inst.i_A[23]
+i_DATA[24] => add_sub:inst.i_A[24]
+i_DATA[25] => add_sub:inst.i_A[25]
+i_DATA[26] => add_sub:inst.i_A[26]
+i_DATA[27] => add_sub:inst.i_A[27]
+i_DATA[28] => add_sub:inst.i_A[28]
+i_DATA[29] => add_sub:inst.i_A[29]
+i_DATA[30] => add_sub:inst.i_A[30]
+i_DATA[31] => add_sub:inst.i_A[31]
+
+
+|calculo_PC|add_sub:inst
+o_COUT <= full_adder:inst29.o_COUT
+i_A[0] => full_adder:inst.i_A
+i_A[1] => full_adder:inst1.i_A
+i_A[2] => full_adder:inst2.i_A
+i_A[3] => full_adder:inst3.i_A
+i_A[4] => full_adder:inst4.i_A
+i_A[5] => full_adder:inst5.i_A
+i_A[6] => full_adder:inst6.i_A
+i_A[7] => full_adder:inst7.i_A
+i_A[8] => full_adder:inst88.i_A
+i_A[9] => full_adder:inst99.i_A
+i_A[10] => full_adder:inst25.i_A
+i_A[11] => full_adder:inst8.i_A
+i_A[12] => full_adder:inst9.i_A
+i_A[13] => full_adder:inst10.i_A
+i_A[14] => full_adder:inst11.i_A
+i_A[15] => full_adder:inst12.i_A
+i_A[16] => full_adder:inst13.i_A
+i_A[17] => full_adder:inst14.i_A
+i_A[18] => full_adder:inst15.i_A
+i_A[19] => full_adder:inst16.i_A
+i_A[20] => full_adder:inst26.i_A
+i_A[21] => full_adder:inst17.i_A
+i_A[22] => full_adder:inst18.i_A
+i_A[23] => full_adder:inst19.i_A
+i_A[24] => full_adder:inst20.i_A
+i_A[25] => full_adder:inst21.i_A
+i_A[26] => full_adder:inst22.i_A
+i_A[27] => full_adder:inst23.i_A
+i_A[28] => full_adder:inst24.i_A
+i_A[29] => full_adder:inst27.i_A
+i_A[30] => full_adder:inst28.i_A
+i_A[31] => full_adder:inst29.i_A
+i_CIN => inst61.IN0
+i_CIN => inst60.IN0
+i_CIN => inst59.IN0
+i_CIN => inst58.IN0
+i_CIN => inst57.IN0
+i_CIN => inst56.IN0
+i_CIN => inst55.IN0
+i_CIN => inst54.IN0
+i_CIN => inst53.IN0
+i_CIN => inst52.IN0
+i_CIN => inst51.IN0
+i_CIN => inst50.IN0
+i_CIN => inst49.IN0
+i_CIN => inst48.IN0
+i_CIN => inst47.IN0
+i_CIN => inst46.IN0
+i_CIN => inst45.IN0
+i_CIN => inst44.IN0
+i_CIN => inst43.IN0
+i_CIN => inst42.IN0
+i_CIN => inst41.IN0
+i_CIN => inst40.IN0
+i_CIN => inst39.IN0
+i_CIN => inst38.IN0
+i_CIN => inst37.IN0
+i_CIN => inst36.IN0
+i_CIN => inst35.IN0
+i_CIN => inst34.IN0
+i_CIN => inst33.IN0
+i_CIN => inst32.IN0
+i_CIN => inst31.IN0
+i_CIN => inst30.IN0
+i_CIN => full_adder:inst.i_CIN
+i_B[0] => inst30.IN1
+i_B[1] => inst31.IN1
+i_B[2] => inst32.IN1
+i_B[3] => inst33.IN1
+i_B[4] => inst34.IN1
+i_B[5] => inst35.IN1
+i_B[6] => inst36.IN1
+i_B[7] => inst37.IN1
+i_B[8] => inst38.IN1
+i_B[9] => inst39.IN1
+i_B[10] => inst40.IN1
+i_B[11] => inst41.IN1
+i_B[12] => inst42.IN1
+i_B[13] => inst43.IN1
+i_B[14] => inst44.IN1
+i_B[15] => inst45.IN1
+i_B[16] => inst46.IN1
+i_B[17] => inst47.IN1
+i_B[18] => inst48.IN1
+i_B[19] => inst49.IN1
+i_B[20] => inst50.IN1
+i_B[21] => inst51.IN1
+i_B[22] => inst52.IN1
+i_B[23] => inst53.IN1
+i_B[24] => inst54.IN1
+i_B[25] => inst55.IN1
+i_B[26] => inst56.IN1
+i_B[27] => inst57.IN1
+i_B[28] => inst58.IN1
+i_B[29] => inst59.IN1
+i_B[30] => inst60.IN1
+i_B[31] => inst61.IN1
+o_S[0] <= full_adder:inst.o_S
+o_S[1] <= full_adder:inst1.o_S
+o_S[2] <= full_adder:inst2.o_S
+o_S[3] <= full_adder:inst3.o_S
+o_S[4] <= full_adder:inst4.o_S
+o_S[5] <= full_adder:inst5.o_S
+o_S[6] <= full_adder:inst6.o_S
+o_S[7] <= full_adder:inst7.o_S
+o_S[8] <= full_adder:inst88.o_S
+o_S[9] <= full_adder:inst99.o_S
+o_S[10] <= full_adder:inst25.o_S
+o_S[11] <= full_adder:inst8.o_S
+o_S[12] <= full_adder:inst9.o_S
+o_S[13] <= full_adder:inst10.o_S
+o_S[14] <= full_adder:inst11.o_S
+o_S[15] <= full_adder:inst12.o_S
+o_S[16] <= full_adder:inst13.o_S
+o_S[17] <= full_adder:inst14.o_S
+o_S[18] <= full_adder:inst15.o_S
+o_S[19] <= full_adder:inst16.o_S
+o_S[20] <= full_adder:inst26.o_S
+o_S[21] <= full_adder:inst17.o_S
+o_S[22] <= full_adder:inst18.o_S
+o_S[23] <= full_adder:inst19.o_S
+o_S[24] <= full_adder:inst20.o_S
+o_S[25] <= full_adder:inst21.o_S
+o_S[26] <= full_adder:inst22.o_S
+o_S[27] <= full_adder:inst23.o_S
+o_S[28] <= full_adder:inst24.o_S
+o_S[29] <= full_adder:inst27.o_S
+o_S[30] <= full_adder:inst28.o_S
+o_S[31] <= full_adder:inst29.o_S
+
+
+|calculo_PC|add_sub:inst|full_adder:inst29
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst28
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst27
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst24
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst23
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst22
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst21
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst20
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst19
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst18
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst17
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst26
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst16
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst15
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst14
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst13
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst12
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst11
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst10
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst9
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst8
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst25
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst99
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst88
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst7
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst6
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst5
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst4
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst3
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst2
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst1
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|add_sub:inst|full_adder:inst
+o_S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i_CIN => inst.IN0
+i_CIN => inst3.IN0
+i_CIN => inst2.IN0
+i_A => inst.IN1
+i_A => inst4.IN0
+i_A => inst2.IN1
+i_B => inst1.IN1
+i_B => inst3.IN1
+i_B => inst4.IN1
+o_COUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|calculo_PC|lpm_constant1:inst2
+result[0] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[0]
+result[1] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[1]
+result[2] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[2]
+result[3] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[3]
+result[4] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[4]
+result[5] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[5]
+result[6] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[6]
+result[7] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[7]
+result[8] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[8]
+result[9] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[9]
+result[10] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[10]
+result[11] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[11]
+result[12] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[12]
+result[13] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[13]
+result[14] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[14]
+result[15] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[15]
+result[16] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[16]
+result[17] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[17]
+result[18] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[18]
+result[19] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[19]
+result[20] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[20]
+result[21] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[21]
+result[22] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[22]
+result[23] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[23]
+result[24] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[24]
+result[25] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[25]
+result[26] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[26]
+result[27] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[27]
+result[28] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[28]
+result[29] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[29]
+result[30] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[30]
+result[31] <= lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component.result[31]
+
+
+|calculo_PC|lpm_constant1:inst2|lpm_constant1_lpm_constant_v09:lpm_constant1_lpm_constant_v09_component
+result[0] <= <GND>
+result[1] <= <GND>
+result[2] <= <VCC>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <GND>
+result[6] <= <GND>
+result[7] <= <GND>
+result[8] <= <GND>
+result[9] <= <GND>
+result[10] <= <GND>
+result[11] <= <GND>
+result[12] <= <GND>
+result[13] <= <GND>
+result[14] <= <GND>
+result[15] <= <GND>
+result[16] <= <GND>
+result[17] <= <GND>
+result[18] <= <GND>
+result[19] <= <GND>
+result[20] <= <GND>
+result[21] <= <GND>
+result[22] <= <GND>
+result[23] <= <GND>
+result[24] <= <GND>
+result[25] <= <GND>
+result[26] <= <GND>
+result[27] <= <GND>
+result[28] <= <GND>
+result[29] <= <GND>
+result[30] <= <GND>
+result[31] <= <GND>
+
+
