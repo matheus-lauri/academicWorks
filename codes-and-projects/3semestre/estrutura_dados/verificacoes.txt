@@ -1,0 +1,24 @@
+if (raiz->tabuleiro[i][j - 1] == 'X') {
+					if (raiz->tabuleiro[i][j + 1] == 'X') {
+						raiz->tabuleiro[i][j] = 'O';
+						return raiz;
+					}
+				}
+				if (raiz->tabuleiro[i - 1][j] == 'X') {
+					if (raiz->tabuleiro[i + 1][j] == 'X') {
+						raiz->tabuleiro[i][j] = 'O';
+						return raiz;
+					}
+				}
+				if (raiz->tabuleiro[i - 1][j - 1] == 'X') {
+					if (raiz->tabuleiro[i + 1][j + 1] == 'X') {
+						raiz->tabuleiro[i][j] = 'O';
+						return raiz;
+					}
+				}
+				if (raiz->tabuleiro[i + 1][j - 1] == 'X') {
+					if (raiz->tabuleiro[i - 1][j + 1] == 'X') {
+						raiz->tabuleiro[i][j] = 'O';
+						return raiz;
+					}
+				}

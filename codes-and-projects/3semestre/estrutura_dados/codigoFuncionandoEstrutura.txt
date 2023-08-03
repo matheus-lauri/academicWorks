@@ -1,0 +1,376 @@
+#include <iostream>
+#include <ctime>
+using namespace std;
+
+#define TAMANHO 3
+
+struct No {
+	char tabuleiro[TAMANHO][TAMANHO];
+	No* filhos[7];
+	int peso;
+};
+
+void inicializarNo(No * no) {
+	
+	for (int i = 0; i < TAMANHO; i++) {
+		for (int j = 0; j < TAMANHO; j++) {
+			no->tabuleiro[i][j] = '*';
+		}
+	}
+	
+	// Inicializar os filhos como NULL
+	for (int i = 0; i < 7; i++) no->filhos[i] = NULL;
+	no->peso = -1000;
+}
+
+// Imprimir o tabuleiro
+void imprimirTabuleiro(char tabuleiro[TAMANHO][TAMANHO]) {
+	for (int i = 0; i < TAMANHO; i++) {
+		for (int j = 0; j < TAMANHO; j++) {
+			cout << tabuleiro[i][j] << " ";
+		}
+		cout << endl;
+	}
+	cout << endl;
+}
+// Verificar se o jogo terminou em empate
+bool verificarEmpate(char tabuleiro[TAMANHO][TAMANHO]) {
+	for (int i = 0; i < TAMANHO; i++) {
+		for (int j = 0; j < TAMANHO; j++) {
+			if (tabuleiro[i][j] == '*') {
+				return false; // Ainda há espaço vazio no tabuleiro
+			}
+		}
+	}
+	return true; // O tabuleiro está cheio (empate)
+}
+int calcularPosicoesPreenchidas(char tabuleiro[TAMANHO][TAMANHO]){
+	int cont = 0;
+	for (int i = 0; i < TAMANHO; i++) {
+		for (int j = 0; j < TAMANHO; j++) {
+			if (tabuleiro[i][j] != '*') {
+				cont++;
+			}
+		}
+	}
+	return cont;
+}
+
+bool verificarVencedor(char tabuleiro[TAMANHO][TAMANHO]) {
+	// Verificar linhas
+	for (int i = 0; i < 3; i++) {
+		if (tabuleiro[i][0] != '*' && tabuleiro[i][0] == tabuleiro[i][1] && tabuleiro[i][1] == tabuleiro[i][2])
+			return true;
+	}
+
+	// Verificar colunas
+	for (int j = 0; j < 3; j++) {
+		if (tabuleiro[0][j] != '*' && tabuleiro[0][j] == tabuleiro[1][j] && tabuleiro[1][j] == tabuleiro[2][j])
+			return true;
+	}
+
+	// Verificar diagonais
+	if (tabuleiro[0][0] != '*' && tabuleiro[0][0] == tabuleiro[1][1] && tabuleiro[1][1] == tabuleiro[2][2])
+		return true;
+
+	if (tabuleiro[0][2] != '*' && tabuleiro[0][2] == tabuleiro[1][1] && tabuleiro[1][1] == tabuleiro[2][0])
+		return true;
+
+	
+	return false;
+}
+
+bool verificarVitoriaPC(char tabuleiro[TAMANHO][TAMANHO]) {
+	// Verificar linhas
+	for (int i = 0; i < 3; i++) {
+		if (tabuleiro[i][0] == 'O' && tabuleiro[i][0] == tabuleiro[i][1] && tabuleiro[i][1] == tabuleiro[i][2])
+			return true;
+	}
+
+	// Verificar colunas
+	for (int j = 0; j < 3; j++) {
+		if (tabuleiro[0][j] == 'O' && tabuleiro[0][j] == tabuleiro[1][j] && tabuleiro[1][j] == tabuleiro[2][j])
+			return true;
+	}
+
+	// Verificar diagonais
+	if (tabuleiro[0][0] == 'O' && tabuleiro[0][0] == tabuleiro[1][1] && tabuleiro[1][1] == tabuleiro[2][2])
+		return true;
+
+	if (tabuleiro[0][2] == 'O' && tabuleiro[0][2] == tabuleiro[1][1] && tabuleiro[1][1] == tabuleiro[2][0])
+		return true;
+
+
+	return false;
+}
+
+void copiarTabuleiro(char tabuleiro[TAMANHO][TAMANHO], char tabuleiroCopia[TAMANHO][TAMANHO]) {
+	for (int i = 0; i < TAMANHO; i++) {
+		for (int j = 0; j < TAMANHO; j++) {
+			tabuleiroCopia[i][j] = tabuleiro[i][j];
+		}
+	}
+}
+
+bool PosicaoDisponivel(char tabuleiro[TAMANHO][TAMANHO], int i, int j) {
+	if (tabuleiro[i][j] == '*') {
+		return true;
+	}
+	return false;
+}
+
+int calcularPesoTabuleiro(No* no) {
+	if (verificarEmpate(no->tabuleiro)) {
+		return 0;
+	}
+	else if (verificarVitoriaPC(no->tabuleiro)) {
+		return 1;
+	}
+	else {
+		return -1;
+	}
+}
+
+int adicionarPeso(No* raiz) {
+	int peso = -1;
+	if (raiz == NULL) {
+		return -1;
+	}
+	if (raiz->filhos[0] == NULL) {
+		peso = calcularPesoTabuleiro(raiz);
+	}
+	else {
+		for (int i = 0; i < 7; i++) {
+			int aux = adicionarPeso(raiz->filhos[i]);
+			if (aux > peso) {
+				peso = aux;
+			}
+		}
+	}
+	raiz->peso = peso;
+	return peso;
+}
+
+No* gerarArvore(No* raiz, char tabuleiro[TAMANHO][TAMANHO], char jogadorAtual) {
+	// Verificar se o jogo terminou (vitória ou empate)
+	if (verificarVencedor(tabuleiro) || verificarEmpate(tabuleiro)) {
+		return NULL;
+	}
+
+	// Gerar os filhos da raiz
+	for (int i = 0; i < TAMANHO; i++) {
+		for (int j = 0; j < TAMANHO; j++) {
+			// Verificar se a coluna está disponível para jogar
+			if (PosicaoDisponivel(tabuleiro, i, j)) {
+				// Criar um novo nó para a jogada
+				No* novo_no = new No;
+				inicializarNo(novo_no);
+				copiarTabuleiro(tabuleiro, novo_no->tabuleiro);
+				novo_no->tabuleiro[i][j] = jogadorAtual;
+
+				// Adicionar o novo nó como filho da raiz
+				for (int i = 0; i < 7; i++) {
+					if (raiz->filhos[i] == NULL) {
+						raiz->filhos[i] = novo_no;
+						break;
+					}
+				}
+
+				// Chamar recursivamente para o próximo jogador
+				gerarArvore(novo_no, novo_no->tabuleiro, (jogadorAtual == 'O') ? 'X' : 'O');
+			}
+		}
+	}
+
+	return raiz;
+}
+
+bool verificarTabuleirosIguais(char tab1[TAMANHO][TAMANHO], char tab2[TAMANHO][TAMANHO]) {
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			if (tab1[i][j] != tab2[i][j]) {
+				return false;
+			}
+		}
+	}
+	return true;
+}
+
+int minimax(No* no, bool maxPlayer) {
+	if (no->peso == 1 || no->peso == -1 || no->peso == 0) {
+		return no->peso;
+	}
+
+	if (maxPlayer) {
+		int melhorPeso = -1000;
+		for (int i = 0; i < 7; i++) {
+			No* filho = no->filhos[i];
+			if (filho != nullptr) {
+				int peso = minimax(filho, false);
+				melhorPeso = max(melhorPeso, peso);
+			}
+		}
+		return melhorPeso;
+	}
+	else {
+		int piorPeso = 1000;
+		for (int i = 0; i < 7; i++) {
+			No* filho = no->filhos[i];
+			if (filho != nullptr) {
+				int peso = minimax(filho, true);
+				piorPeso = min(piorPeso, peso);
+			}
+		}
+		return piorPeso;
+	}
+}
+
+void realizarJogadaPC(char tabuleiro[TAMANHO][TAMANHO]) {
+	No raiz;
+	inicializarNo(&raiz);
+	int aux = 0;
+	aux = calcularPosicoesPreenchidas(tabuleiro);
+	if (aux < 2) { // faz a primeira jogada aleatoriamente
+		int i, j;
+		do {
+			i = rand() % 3;
+			j = rand() % 3;
+		} while (tabuleiro[i][j] != '*');
+		tabuleiro[i][j] = 'O';
+		copiarTabuleiro(tabuleiro, raiz.tabuleiro);
+		return;
+	}
+	copiarTabuleiro(tabuleiro, raiz.tabuleiro);
+	gerarArvore(&raiz, raiz.tabuleiro, 'O');
+	adicionarPeso(&raiz);
+
+	int melhorPeso = -1000;
+	No* melhorFilho = nullptr;
+
+	for (int i = 0; i < 7; i++) {
+		No* filho = raiz.filhos[i];
+		if (filho != nullptr) {
+			int peso = minimax(filho, false);
+			if (peso > melhorPeso) {
+				melhorPeso = peso;
+				melhorFilho = filho;
+			}
+		}
+	}
+
+	if (melhorFilho != nullptr) {
+		copiarTabuleiro(melhorFilho->tabuleiro, tabuleiro);
+	}
+}
+
+char randomizar() {
+	char c = ' ';
+	srand(time(NULL));
+	int num = rand() % 2;
+	(num == 0) ? c = 'X' : c = 'O';
+	return c;
+}
+void Jogo() {
+	//Tabuleiro como matriz de char
+	char tabuleiro[TAMANHO][TAMANHO];
+
+	int linha, coluna;
+	char jogadorAtual = randomizar();
+
+
+	// Inicializar o tabuleiro com '*'
+	for (int i = 0; i < TAMANHO; i++) {
+		for (int j = 0; j < TAMANHO; j++) {
+			tabuleiro[i][j] = '*';
+		}
+	}
+
+	//Loop do jogo
+	do {
+		imprimirTabuleiro(tabuleiro);
+		if (jogadorAtual == 'X') {
+			cout << "Jogador " << jogadorAtual << ", e a sua vez. Informe a posicao (linha e coluna): ";
+			cin >> linha >> coluna;
+
+			// Verificar se a posição é válida
+			if (linha < 0 || linha >= TAMANHO || coluna < 0 || coluna >= TAMANHO || tabuleiro[linha][coluna] != '*') {
+				cout << "Posicao invalida. Tente novamente." << endl;
+				continue;
+			}
+			// Realizar jogada Humano
+			tabuleiro[linha][coluna] = jogadorAtual;
+		}
+		else {
+			cout << "O computador fez a sua jogada: " << endl;
+			//Realizar jogada Computador
+			realizarJogadaPC(tabuleiro);
+			
+		}
+
+		// Verificar se houve um vencedor
+		if (verificarVencedor(tabuleiro)) {
+			cout << "Parabens! Jogador " << jogadorAtual << " venceu o jogo!" << endl;
+			break;
+		}
+
+		// Verificar se houve empate
+		if (verificarEmpate(tabuleiro)) {
+			cout << "O jogo terminou em empate!" << endl;
+			break;
+		}
+
+		// Alternar para o próximo jogador
+		jogadorAtual = (jogadorAtual == 'X') ? 'O' : 'X';
+		
+	} while (true);
+	imprimirTabuleiro(tabuleiro);
+
+	cout << "Fim do jogo." << endl;
+}
+
+
+void exibirArvore(No* raiz, int nivel = 0) {
+	// Imprimir o tabuleiro do nó atual
+	cout << "Nivel: " << nivel << endl;
+	for (int i = 0; i < TAMANHO; i++) {
+		for (int j = 0; j < TAMANHO; j++) {
+			cout << raiz->tabuleiro[i][j] << " ";
+		}
+		cout << endl;
+	}
+
+	cout << "Peso: " << raiz->peso << endl;
+
+	cout << endl;
+	// Percorrer os filhos do nó atual de forma recursiva
+	for (int i = 0; i < 7; i++) {
+		if (raiz->filhos[i] != nullptr) {
+			exibirArvore(raiz->filhos[i], nivel + 1);
+		}
+	}
+}
+
+
+
+int main() {
+	Jogo();
+	
+	/*
+	// Criar o nó raiz
+	No* raiz =  new No;
+	inicializarNo(raiz);
+	// Tabuleiro inicial
+	char tabuleiroInicial[TAMANHO][TAMANHO] = {
+		{'O', '*', '*'},
+		{'X', 'X', '*'},
+		{'*', 'O', 'X'}
+	};
+
+	// Chamar a função gerarArvore()
+	gerarArvore(raiz, tabuleiroInicial, 'O');
+	adicionarPeso(raiz);
+	exibirArvore(raiz);
+	cout << "Valor final: " << raiz->peso << endl;
+	*/
+	return 0;
+}

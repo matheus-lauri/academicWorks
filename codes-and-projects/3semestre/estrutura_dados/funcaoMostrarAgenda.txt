@@ -1,0 +1,43 @@
+//Mostra todos os compromissos de todas as datas presensentes na agenda na vertical
+void mostrarAgenda(Agenda lista) {
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE); // Obtém o handle para o console
+    COORD cursorPos = { 0, 0 }; // Define a posição inicial do cursor
+    SetConsoleCursorPosition(hConsole, cursorPos); // Posiciona o cursor na posição inicial
+
+    // Percorre as datas da agenda
+    NoData* atualData = lista.comeco;
+    while (atualData != nullptr) {
+        // Percorre os compromissos da data atual
+        NoCompromisso* aux = atualData->comecoCompromisso;
+
+        cout << atualData->data.dia << "/" << atualData->data.mes << "/" << atualData->data.ano << ": \n";
+        while (aux != NULL) {
+            // Posiciona o cursor na próxima linha e imprime o compromisso
+            cursorPos.Y++;
+            SetConsoleCursorPosition(hConsole, cursorPos);
+            cout << "Compromisso: " << endl;
+            cursorPos.Y++;
+            SetConsoleCursorPosition(hConsole, cursorPos);
+            cout << "Hora Inicio: " << aux->compromisso.hComeco << ":" << aux->compromisso.mComeco << endl;
+            cursorPos.Y++;
+            SetConsoleCursorPosition(hConsole, cursorPos);
+            cout << "Hora Final: " << aux->compromisso.hFim << ":" << aux->compromisso.mFim << endl;
+            cursorPos.Y++;
+            SetConsoleCursorPosition(hConsole, cursorPos);
+            cout << "Descricao: " << aux->compromisso.texto << endl;
+            cursorPos.Y++;
+            SetConsoleCursorPosition(hConsole, cursorPos);
+            aux = aux->eloP;
+        }
+
+        // Posiciona o cursor para a próxima data e adiciona uma margem entre as datas
+        cursorPos.Y = 0;
+        cursorPos.X += 40;
+        SetConsoleCursorPosition(hConsole, cursorPos);
+
+        atualData = atualData->eloP;
+    }
+    cursorPos.Y = 27;
+    cursorPos.X = 0;
+    SetConsoleCursorPosition(hConsole, cursorPos);
+}

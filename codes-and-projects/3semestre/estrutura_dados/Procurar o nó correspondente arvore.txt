@@ -1,0 +1,52 @@
+// Procurar o nó correspondente ao tabuleiro atual
+	No* noEncontrado = procurarNoArvore(raiz, tabuleiro);
+
+	// Verificar se o nó foi encontrado
+	if (noEncontrado != NULL) {
+		int melhorPeso = -1000; // Valor inicial inválido
+		No* melhorFilho = NULL;
+
+		// Percorrer os filhos do nó encontrado
+		for (int i = 0; i < 7; i++) {
+			No* filho = noEncontrado->filhos[i];
+			if (filho != NULL) {
+				// Verificar o peso do filho
+				int pesoFilho = filho->peso;
+
+				if (pesoFilho == 1) {
+					// Encontrou uma jogada vencedora, escolhe essa jogada imediatamente
+					melhorFilho = filho;
+					break;
+				}
+				else if (pesoFilho == 0 && melhorFilho == NULL) {
+					// Ainda não encontrou uma jogada vencedora, escolhe uma jogada de empate
+					melhorFilho = filho;
+				}
+				else if (pesoFilho == -1 && melhorFilho == NULL) {
+					// Ainda não encontrou uma jogada vencedora ou de empate, escolhe uma jogada que pode levar a derrota
+					melhorFilho = filho;
+				}
+			}
+		}
+
+		// Verificar se foi encontrada uma jogada adequada
+		if (melhorFilho != NULL) {
+			return melhorFilho;
+		}
+	}
+
+	// Caso não tenha sido encontrada uma jogada adequada, retorna NULL
+	return NULL;
+
+
+
+
+
+
+
+
+
+No* jogadaPC = new No;
+			inicializarNo(jogadaPC);
+			jogadaPC = realizarJogadaPC(tabuleiro);
+			copiarTabuleiro(jogadaPC->tabuleiro, tabuleiro);
