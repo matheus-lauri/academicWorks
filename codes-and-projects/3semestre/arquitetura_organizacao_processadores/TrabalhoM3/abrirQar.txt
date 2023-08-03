@@ -1,0 +1,2 @@
+- baixe o software Quartus versão 13.1 e abra o mesmo, clique na aba "Project->RestoreArchivedProject" e depois selecione o arquivo .qar
+- caso não de certo, pesquise como restaurar um arquivo .qar no Quartus 13.1
