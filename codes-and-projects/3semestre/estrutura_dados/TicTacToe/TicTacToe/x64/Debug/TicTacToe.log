@@ -1,0 +1,3 @@
+﻿  TicTacToe.cpp
+D:\ProjetosVisualStudio\TicTacToe\TicTacToe\TicTacToe.cpp(178,9): warning C4101: 'op': variável local não referenciada
+  TicTacToe.vcxproj -> D:\ProjetosVisualStudio\TicTacToe\x64\Debug\TicTacToe.exe
