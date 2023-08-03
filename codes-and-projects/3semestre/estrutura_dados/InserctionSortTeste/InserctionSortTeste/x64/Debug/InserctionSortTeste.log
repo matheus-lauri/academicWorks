@@ -1,0 +1,3 @@
+﻿  InserctionSortTeste.cpp
+E:\Workspace\projetos_vsstudio\estrutura_dados\InserctionSortTeste\InserctionSortTeste\InserctionSortTeste.cpp(59,12): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+  InserctionSortTeste.vcxproj -> E:\Workspace\projetos_vsstudio\estrutura_dados\InserctionSortTeste\x64\Debug\InserctionSortTeste.exe

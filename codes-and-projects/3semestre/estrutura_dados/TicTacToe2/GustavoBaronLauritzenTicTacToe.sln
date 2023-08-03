@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GustavoBaronLauritzenTicTacToe", "GustavoBaronLauritzenTicTacToe\GustavoBaronLauritzenTicTacToe.vcxproj", "{61A3A224-1E81-487B-9BD1-A4BC9D15CFDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61A3A224-1E81-487B-9BD1-A4BC9D15CFDD}.Debug|x64.ActiveCfg = Debug|x64
+		{61A3A224-1E81-487B-9BD1-A4BC9D15CFDD}.Debug|x64.Build.0 = Debug|x64
+		{61A3A224-1E81-487B-9BD1-A4BC9D15CFDD}.Debug|x86.ActiveCfg = Debug|Win32
+		{61A3A224-1E81-487B-9BD1-A4BC9D15CFDD}.Debug|x86.Build.0 = Debug|Win32
+		{61A3A224-1E81-487B-9BD1-A4BC9D15CFDD}.Release|x64.ActiveCfg = Release|x64
+		{61A3A224-1E81-487B-9BD1-A4BC9D15CFDD}.Release|x64.Build.0 = Release|x64
+		{61A3A224-1E81-487B-9BD1-A4BC9D15CFDD}.Release|x86.ActiveCfg = Release|Win32
+		{61A3A224-1E81-487B-9BD1-A4BC9D15CFDD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4750DF5B-CAD4-48C2-8144-DBC23D6B55EA}
+	EndGlobalSection
+EndGlobal
