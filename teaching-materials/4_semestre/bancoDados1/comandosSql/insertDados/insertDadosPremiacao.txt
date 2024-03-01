@@ -1,0 +1,9 @@
+-- Inserir premiações
+INSERT INTO premiacao (nomePremiacao)
+VALUES
+    ('Jogador Mais Valioso'),
+    ('Melhor Defensor'),
+    ('Calouro do Ano'),
+    ('Sexto Homem do Ano'),
+    ('Jogador que Mais Evoluiu'),
+    ('Jogador Mais Decisivo');

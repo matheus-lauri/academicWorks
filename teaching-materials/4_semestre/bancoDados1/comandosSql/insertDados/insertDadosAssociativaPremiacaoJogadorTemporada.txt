@@ -1,0 +1,39 @@
+START TRANSACTION;
+
+-- Inserir premiação Jogador Mais Valioso para os jogadores nas temporadas 2023-2024 e 2022-2023
+INSERT INTO premiacao_jogador_temporada (FK_idPremiacao, FK_idJogador, FK_idTemporada)
+VALUES
+    (1, 1, 77), -- Jogador Mais Valioso, Jayson Tatum, Temporada 2023-2024
+    (1, 11, 78); -- Jogador Mais Valioso, Kevin Durant, Temporada 2022-2023
+
+-- Inserir premiação Melhor Defensor para os jogadores nas temporadas 2023-2024 e 2022-2023
+INSERT INTO premiacao_jogador_temporada (FK_idPremiacao, FK_idJogador, FK_idTemporada)
+VALUES
+    (2, 2, 77), -- Melhor Defensor, Jaylen Brown, Temporada 2023-2024
+    (2, 32, 78); -- Melhor Defensor, Ben Simmons, Temporada 2022-2023
+
+-- Inserir premiação Calouro do Ano para os jogadores nas temporadas 2023-2024 e 2022-2023
+INSERT INTO premiacao_jogador_temporada (FK_idPremiacao, FK_idJogador, FK_idTemporada)
+VALUES
+    (3, 3, 77), -- Calouro do Ano, Marcus Smart, Temporada 2023-2024
+    (3, 24, 78); -- Calouro do Ano, Mitchell Robinson, Temporada 2022-2023
+
+-- Inserir premiação Sexto Homem do Ano para os jogadores nas temporadas 2023-2024 e 2022-2023
+INSERT INTO premiacao_jogador_temporada (FK_idPremiacao, FK_idJogador, FK_idTemporada)
+VALUES
+    (4, 4, 77), -- Sexto Homem do Ano, Al Horford, Temporada 2023-2024
+    (4, 13, 78); -- Sexto Homem do Ano, Kyrie Irving, Temporada 2022-2023
+
+-- Inserir premiação Jogador que Mais Evoluiu para os jogadores nas temporadas 2023-2024 e 2022-2023
+INSERT INTO premiacao_jogador_temporada (FK_idPremiacao, FK_idJogador, FK_idTemporada)
+VALUES
+    (5, 5, 77), -- Jogador que Mais Evoluiu, Kemba Walker, Temporada 2023-2024
+    (5, 25, 78); -- Jogador que Mais Evoluiu, Evan Fournier, Temporada 2022-2023
+
+-- Inserir premiação Jogador Mais Decisivo para os jogadores nas temporadas 2023-2024 e 2022-2023
+INSERT INTO premiacao_jogador_temporada (FK_idPremiacao, FK_idJogador, FK_idTemporada)
+VALUES
+    (6, 6, 77), -- Jogador Mais Decisivo, Tristan Thompson, Temporada 2023-2024
+    (6, 38, 78); -- Jogador Mais Decisivo, Furkan Korkmaz, Temporada 2022-2023
+
+COMMIT;

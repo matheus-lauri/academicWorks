@@ -1,0 +1,14 @@
+-- Lesão 1
+INSERT INTO lesao (descricaoLesao) VALUES ('Entorse no tornozelo');
+
+-- Lesão 2
+INSERT INTO lesao (descricaoLesao) VALUES ('Fratura no braço');
+
+-- Lesão 3
+INSERT INTO lesao (descricaoLesao) VALUES ('Tendinite no joelho');
+
+-- Lesão 4
+INSERT INTO lesao (descricaoLesao) VALUES ('Contusão no ombro');
+
+-- Lesão 5
+INSERT INTO lesao (descricaoLesao) VALUES ('Estiramento na coxa');

@@ -1,0 +1,416 @@
+START TRANSACTION;
+
+-- Alabama
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Legacy Arena', 17000, 1, 2);
+
+-- Alasca
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Alaska Airlines Center', 5000, 1, 6);
+
+-- Arkansas
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Simmons Bank Arena', 18000, 1, 11);
+
+-- Arizona
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Footprint Center', 18055, 1, 16);
+
+-- Califórnia
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Chase Center', 18064, 1, 21);
+
+-- Kansas
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('INTRUST Bank Arena', 15000, 1, 27);
+
+-- Carolina do Norte
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Spectrum Center', 19077, 1, 32);
+
+-- Carolina do Sul
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Colonial Life Arena', 18000, 1, 37);
+
+-- Colorado
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Ball Arena', 20155, 1, 42);
+
+-- Conecticute
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('XL Center', 15756, 1, 47);
+
+-- Dacota do Norte
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Bismarck Event Center', 10000, 1, 52);
+
+-- Dacota do Sul
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Denny Sanford Premier Center', 12000, 1, 57);
+
+-- Delaware
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Chase Field', 48519, 1, 62);
+
+-- Flórida
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('AmericanAirlines Arena', 19600, 1, 67);
+
+-- Geórgia
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('State Farm Arena', 18729, 1, 72);
+
+-- Havaí
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Stan Sheriff Center', 10500, 1, 77);
+
+-- Idaho
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('ExtraMile Arena', 12374, 1, 82);
+
+-- Ilha de Rodes
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Ryan Center', 7657, 1, 87);
+
+-- Ilinóis
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('United Center', 23500, 1, 92);
+
+-- Indiana
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Bankers Life Fieldhouse', 17923, 1, 97);
+
+-- Iowa
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Wells Fargo Arena', 16044, 1, 102);
+
+-- Kentucky
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('KFC Yum! Center', 22090, 1, 107);
+
+-- Luisiana
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Smoothie King Center', 16867, 1, 112);
+
+-- Maine
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Cross Insurance Arena', 9500, 1, 117);
+
+-- Marilândia
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Royal Farms Arena', 14954, 1, 122);
+
+-- Massachussets
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('TD Garden', 19580, 1, 127);
+
+-- Michigan
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Little Caesars Arena', 20332, 1, 132);
+
+-- Minesota
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Target Center', 18978, 1, 137);
+
+-- Mississípi
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Mississippi Coliseum', 6500, 1, 142);
+
+-- Missúri
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Enterprise Center', 19000, 1, 147);
+
+-- Montana
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('First Interstate Arena', 6500, 1, 152);
+
+-- Nebrasca
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('CHI Health Center Omaha', 18100, 1, 157);
+
+-- Nevada
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('T-Mobile Arena', 17500, 1, 162);
+
+-- Nova Hampshire
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('SNHU Arena', 11000, 1, 167);
+
+-- Nova Jérsei
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Prudential Center', 16500, 1, 172);
+
+-- Nova Iorque
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Madison Square Garden', 19812, 1, 177);
+
+-- Novo México
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Santa Ana Star Center', 7326, 1, 182);
+
+-- Oklahoma
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Chesapeake Energy Arena', 18203, 1, 187);
+
+-- Ohio
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Rocket Mortgage FieldHouse', 19432, 1, 192);
+
+-- Óregon
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Moda Center', 19441, 1, 197);
+
+-- Pensilvânia
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Wells Fargo Center', 20478, 1, 202);
+
+-- Tennessi
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('FedExForum', 18119, 1, 207);
+
+-- Texas
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Toyota Center', 18055, 1, 212);
+
+-- Utah
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Vivint Arena', 18306, 1, 217);
+
+-- Vermonte
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Patrick Gym', 3256, 1, 222);
+
+-- Virgínia
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('John Paul Jones Arena', 14593, 1, 227);
+
+-- Virgínia Ocidental
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('WesBanco Arena', 5336, 1, 232);
+
+-- Washington
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Climate Pledge Arena', 17500, 1, 237);
+
+-- Wisconsin
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Fiserv Forum', 18717, 1, 242);
+
+-- Wyoming
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Arena-Auditorium', 15028, 1, 247);
+
+-- Canadá
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Scotiabank Arena', 19800, 1, 253);
+
+START TRANSACTION;
+
+-- Alabama
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Legacy Arena', 17000, 1, 2);
+
+-- Alasca
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Alaska Airlines Center', 5000, 1, 6);
+
+-- Arkansas
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Simmons Bank Arena', 18000, 1, 11);
+
+-- Arizona
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Footprint Center', 18055, 1, 16);
+
+-- Califórnia
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Chase Center', 18064, 1, 21);
+
+-- Kansas
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('INTRUST Bank Arena', 15000, 1, 27);
+
+-- Carolina do Norte
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Spectrum Center', 19077, 1, 32);
+
+-- Carolina do Sul
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Colonial Life Arena', 18000, 1, 37);
+
+-- Colorado
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Ball Arena', 20155, 1, 42);
+
+-- Conecticute
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('XL Center', 15756, 1, 47);
+
+-- Dacota do Norte
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Bismarck Event Center', 10000, 1, 52);
+
+-- Dacota do Sul
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Denny Sanford Premier Center', 12000, 1, 57);
+
+-- Delaware
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Chase Field', 48519, 1, 62);
+
+-- Flórida
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('AmericanAirlines Arena', 19600, 1, 67);
+
+-- Geórgia
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('State Farm Arena', 18729, 1, 72);
+
+-- Havaí
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Stan Sheriff Center', 10500, 1, 77);
+
+-- Idaho
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('ExtraMile Arena', 12374, 1, 82);
+
+-- Ilha de Rodes
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Ryan Center', 7657, 1, 87);
+
+-- Ilinóis
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('United Center', 23500, 1, 92);
+
+-- Indiana
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Bankers Life Fieldhouse', 17923, 1, 97);
+
+-- Iowa
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Wells Fargo Arena', 16044, 1, 102);
+
+-- Kentucky
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('KFC Yum! Center', 22090, 1, 107);
+
+-- Luisiana
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Smoothie King Center', 16867, 1, 112);
+
+-- Maine
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Cross Insurance Arena', 9500, 1, 117);
+
+-- Marilândia
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Royal Farms Arena', 14954, 1, 122);
+
+-- Massachussets
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('TD Garden', 19580, 1, 127);
+
+-- Michigan
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Little Caesars Arena', 20332, 1, 132);
+
+-- Minesota
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Target Center', 18978, 1, 137);
+
+-- Mississípi
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Mississippi Coliseum', 6500, 1, 142);
+
+-- Missúri
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Enterprise Center', 19000, 1, 147);
+
+-- Montana
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('First Interstate Arena', 6500, 1, 152);
+
+-- Nebrasca
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('CHI Health Center Omaha', 18100, 1, 157);
+
+-- Nevada
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('T-Mobile Arena', 17500, 1, 162);
+
+-- Nova Hampshire
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('SNHU Arena', 11000, 1, 167);
+
+-- Nova Jérsei
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Prudential Center', 16500, 1, 172);
+
+-- Nova Iorque
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Madison Square Garden', 19812, 1, 177);
+
+-- Novo México
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Santa Ana Star Center', 7326, 1, 182);
+
+-- Oklahoma
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Chesapeake Energy Arena', 18203, 1, 187);
+
+-- Ohio
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Rocket Mortgage FieldHouse', 19432, 1, 192);
+
+-- Óregon
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Moda Center', 19441, 1, 197);
+
+-- Pensilvânia
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Wells Fargo Center', 20478, 1, 202);
+
+-- Tennessi
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('FedExForum', 18119, 1, 207);
+
+-- Texas
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Toyota Center', 18055, 1, 212);
+
+-- Utah
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Vivint Arena', 18306, 1, 217);
+
+-- Vermonte
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Patrick Gym', 3256, 1, 222);
+
+-- Virgínia
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('John Paul Jones Arena', 14593, 1, 227);
+
+-- Virgínia Ocidental
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('WesBanco Arena', 5336, 1, 232);
+
+-- Washington
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Climate Pledge Arena', 17500, 1, 237);
+
+-- Wisconsin
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Fiserv Forum', 18717, 1, 242);
+
+-- Wyoming
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Arena-Auditorium', 15028, 1, 247);
+
+-- Canadá
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ('Scotiabank Arena', 19800, 1, 253);
+
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade) 
+VALUES ("Crypto.com Arena", 19079, 1, 26);
+
+COMMIT;

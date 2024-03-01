@@ -1,0 +1,12 @@
+INSERT INTO jogador_lesao(FK_idJogador, FK_idLesao, dataLesao, statusLesao)
+VALUES (11, 2, "2022-05-24", 1);
+INSERT INTO jogador_lesao(FK_idJogador, FK_idLesao, dataLesao, statusLesao)
+VALUES (56, 1, "2022-03-20", 1);
+INSERT INTO jogador_lesao(FK_idJogador, FK_idLesao, dataLesao, statusLesao)
+VALUES (178, 4, "2022-07-10", 1);
+INSERT INTO jogador_lesao(FK_idJogador, FK_idLesao, dataLesao, statusLesao)
+VALUES (209, 3, "2022-10-14", 1);
+INSERT INTO jogador_lesao(FK_idJogador, FK_idLesao, dataLesao, statusLesao)
+VALUES (287, 5, "2022-09-12", 1);
+INSERT INTO jogador_lesao(FK_idJogador, FK_idLesao, dataLesao, statusLesao)
+VALUES (301, 1, "2022-04-05", 1);

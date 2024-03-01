@@ -1,0 +1,18 @@
+START TRANSACTION;
+
+INSERT INTO partida (dataPartida, horaPartida, pontosEquipeVisitante, pontosEquipeCasa, FK_idArena, FK_idTemporada, FK_idEquipeCasa, FK_idEquipeVisitante)
+VALUES ("2022-04-25", "21:30:00", 105, 100, 53, 77, 1, 15);
+INSERT INTO partida (dataPartida, horaPartida, pontosEquipeVisitante, pontosEquipeCasa, FK_idArena, FK_idTemporada, FK_idEquipeCasa, FK_idEquipeVisitante)
+VALUES ("2022-03-10", "20:30:00", 98, 99, 65, 77, 14, 25);
+INSERT INTO partida (dataPartida, horaPartida, pontosEquipeVisitante, pontosEquipeCasa, FK_idArena, FK_idTemporada, FK_idEquipeCasa, FK_idEquipeVisitante)
+VALUES ("2022-07-03", "19:00:00", 109, 111, 73, 77, 22, 29);
+INSERT INTO partida (dataPartida, horaPartida, pontosEquipeVisitante, pontosEquipeCasa, FK_idArena, FK_idTemporada, FK_idEquipeCasa, FK_idEquipeVisitante)
+VALUES ("2022-02-06", "22:00:00", 95, 94, 62, 77, 10, 05);
+INSERT INTO partida (dataPartida, horaPartida, pontosEquipeVisitante, pontosEquipeCasa, FK_idArena, FK_idTemporada, FK_idEquipeCasa, FK_idEquipeVisitante)
+VALUES ("2022-06-17", "21:00:00", 89, 101, 54, 77, 02, 27);
+INSERT INTO partida (dataPartida, horaPartida, pontosEquipeVisitante, pontosEquipeCasa, FK_idArena, FK_idTemporada, FK_idEquipeCasa, FK_idEquipeVisitante)
+VALUES ("2022-05-27", "19:30:00", 118, 115, 71, 77, 20, 24);
+INSERT INTO partida (dataPartida, horaPartida, pontosEquipeVisitante, pontosEquipeCasa, FK_idArena, FK_idTemporada, FK_idEquipeCasa, FK_idEquipeVisitante)
+VALUES ("2022-04-01", "23:00:00", 119, 120, 60, 77, 08, 30);
+
+COMMIT;

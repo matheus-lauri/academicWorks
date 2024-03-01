@@ -1,0 +1,613 @@
+START TRANSACTION;
+
+-- Alabama (ID do estado: 1)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Montgomery", 1);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Birmingham", 1);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Auburn", 1);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Huntsville", 1);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Mobile", 1);
+
+-- Alasca (ID do estado: 2)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Anchorage", 2);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Fairbanks", 2);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Juneau", 2);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Nome", 2);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Wasilla", 2);
+
+-- Arkansas (ID do estado: 3)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Little Rock", 3);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Fort Smith", 3);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Fayetteville", 3);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Springdale", 3);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Jonesboro", 3);
+
+-- Arizona (ID do estado: 4)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Phoenix", 4);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Tucson", 4);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Mesa", 4);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Scottsdale", 4);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Tempe", 4);
+
+-- Califórnia (ID do estado: 5)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("San Francisco", 5);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("San Diego", 5);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("San Jose", 5);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Sacramento", 5);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Fresno", 5);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Los Angeles", 5);
+
+-- Kansas (ID do estado: 6)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Wichita", 6);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Overland Park", 6);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Kansas City", 6);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Olathe", 6);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Topeka", 6);
+
+-- Carolina do Norte (ID do estado: 7)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Charlotte", 7);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Raleigh", 7);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Greensboro", 7);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Durham", 7);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Winston-Salem", 7);
+
+-- Carolina do Sul (ID do estado: 8)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Columbia", 8);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Charleston", 8);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("North Charleston", 8);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Mount Pleasant", 8);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Rock Hill", 8);
+
+-- Colorado (ID do estado: 9)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Denver", 9);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Colorado Springs", 9);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Aurora", 9);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Fort Collins", 9);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Lakewood", 9);
+
+-- Connecticut (ID do estado: 10)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Bridgeport", 10);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("New Haven", 10);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Stamford", 10);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Hartford", 10);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Waterbury", 10);
+
+-- Dakota do Norte (ID do estado: 11)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Fargo", 11);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Bismarck", 11);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Grand Forks", 11);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Minot", 11);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("West Fargo", 11);
+
+-- Dakota do Sul (ID do estado: 12)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Sioux Falls", 12);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Rapid City", 12);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Aberdeen", 12);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Brookings", 12);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Watertown", 12);
+
+-- Delaware (ID do estado: 13)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Wilmington", 13);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Dover", 13);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Newark", 13);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Middletown", 13);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Smyrna", 13);
+
+-- Flórida (ID do estado: 14)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Jacksonville", 14);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Miami", 14);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Tampa", 14);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Orlando", 14);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("St. Petersburg", 14);
+
+-- Geórgia (ID do estado: 15)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Atlanta", 15);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Augusta", 15);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Columbus", 15);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Savannah", 15);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Athens", 15);
+
+-- Havaí (ID do estado: 16)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Honolulu", 16);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Pearl City", 16);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Hilo", 16);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Kailua", 16);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Waipahu", 16);
+
+-- Idaho (ID do estado: 17)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Boise", 17);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Nampa", 17);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Meridian", 17);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Idaho Falls", 17);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Pocatello", 17);
+
+-- Ilha de Rodes (ID do estado: 18)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Providence", 18);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Warwick", 18);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Cranston", 18);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Pawtucket", 18);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("East Providence", 18);
+
+-- Ilinóis (ID do estado: 19)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Chicago", 19);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Aurora", 19);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Rockford", 19);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Joliet", 19);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Naperville", 19);
+
+-- Indiana (ID do estado: 20)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Indianápolis", 20);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Fort Wayne", 20);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Evansville", 20);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("South Bend", 20);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Carmel", 20);
+
+-- Iowa (ID do estado: 21)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Des Moines", 21);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Cedar Rapids", 21);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Davenport", 21);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Sioux City", 21);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Iowa City", 21);
+
+-- Kentucky (ID do estado: 22)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Louisville", 22);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Lexington", 22);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Bowling Green", 22);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Owensboro", 22);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Covington", 22);
+
+-- Luisiana (ID do estado: 23)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Nova Orleans", 23);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Baton Rouge", 23);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Shreveport", 23);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Metairie", 23);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Lafayette", 23);
+
+-- Maine (ID do estado: 24)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Portland", 24);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Lewiston", 24);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Bangor", 24);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("South Portland", 24);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Auburn", 24);
+
+-- Marilândia (ID do estado: 25)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Baltimore", 25);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Columbia", 25);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Germantown", 25);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Silver Spring", 25);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Waldorf", 25);
+
+-- Massachussets (ID do estado: 26)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Boston", 26);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Worcester", 26);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Springfield", 26);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Lowell", 26);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Cambridge", 26);
+
+-- Michigan (ID do estado: 27)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Detroit", 27);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Grand Rapids", 27);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Warren", 27);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Sterling Heights", 27);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Lansing", 27);
+
+-- Minesota (ID do estado: 28)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Minneapolis", 28);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("St. Paul", 28);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Rochester", 28);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Duluth", 28);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Bloomington", 28);
+
+-- Mississípi (ID do estado: 29)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Jackson", 29);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Gulfport", 29);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Southaven", 29);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Hattiesburg", 29);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Biloxi", 29);
+
+-- Missúri (ID do estado: 30)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Kansas City", 30);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("St. Louis", 30);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Springfield", 30);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Independence", 30);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Columbia", 30);
+
+-- Montana (ID do estado: 31)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Billings", 31);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Missoula", 31);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Great Falls", 31);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Bozeman", 31);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Butte", 31);
+
+-- Nebrasca (ID do estado: 32)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Omaha", 32);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Lincoln", 32);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Bellevue", 32);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Grand Island", 32);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Kearney", 32);
+
+-- Nevada (ID do estado: 33)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Las Vegas", 33);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Henderson", 33);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Reno", 33);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("North Las Vegas", 33);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Sparks", 33);
+
+-- Nova Hampshire (ID do estado: 34)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Manchester", 34);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Nashua", 34);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Concord", 34);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Dover", 34);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Rochester", 34);
+
+-- Nova Jérsei (ID do estado: 35)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Newark", 35);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Jersey City", 35);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Paterson", 35);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Elizabeth", 35);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Edison", 35);
+
+-- Nova Iorque (ID do estado: 36)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Nova Iorque", 36);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Buffalo", 36);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Rochester", 36);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Yonkers", 36);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Syracuse", 36);
+
+-- Novo México (ID do estado: 37)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Albuquerque", 37);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Las Cruces", 37);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Rio Rancho", 37);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Santa Fe", 37);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Roswell", 37);
+
+-- Oklahoma (ID do estado: 38)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Oklahoma City", 38);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Tulsa", 38);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Norman", 38);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Broken Arrow", 38);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Lawton", 38);
+
+-- Ohio (ID do estado: 39)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Columbus", 39);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Cleveland", 39);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Cincinnati", 39);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Toledo", 39);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Akron", 39);
+
+-- Óregon (ID do estado: 40)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Portland", 40);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Salem", 40);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Eugene", 40);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Gresham", 40);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Hillsboro", 40);
+
+-- Pensilvânia (ID do estado: 41)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Filadélfia", 41);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Pittsburgh", 41);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Allentown", 41);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Erie", 41);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Reading", 41);
+
+-- Tenessi (ID do estado: 42)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Memphis", 42);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Nashville", 42);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Knoxville", 42);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Chattanooga", 42);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Clarksville", 42);
+
+-- Texas (ID do estado: 43)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Houston", 43);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("San Antonio", 43);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Dallas", 43);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Austin", 43);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Fort Worth", 43);
+
+-- Utah (ID do estado: 44)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Salt Lake City", 44);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("West Valley City", 44);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Provo", 44);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("West Jordan", 44);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Orem", 44);
+
+-- Vermonte (ID do estado: 45)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Burlington", 45);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("South Burlington", 45);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Rutland", 45);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Essex", 45);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Barre", 45);
+
+-- Virgínia (ID do estado: 46)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Virginia Beach", 46);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Norfolk", 46);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Chesapeake", 46);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Richmond", 46);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Newport News", 46);
+
+-- Virgínia Ocidental (ID do estado: 47)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Charleston", 47);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Huntington", 47);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Morgantown", 47);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Parkersburg", 47);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Wheeling", 47);
+
+-- Washington (ID do estado: 48)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Seattle", 48);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Spokane", 48);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Tacoma", 48);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Vancouver", 48);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Bellevue", 48);
+
+-- Wisconsin (ID do estado: 49)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Milwaukee", 49);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Madison", 49);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Green Bay", 49);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Kenosha", 49);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Racine", 49);
+
+-- Wyoming (ID do estado: 50)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Cheyenne", 50);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Casper", 50);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Laramie", 50);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Gillette", 50);
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Rock Springs", 50);
+
+-- Distrito Colúmbia (ID do estado: 51)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Washington", 51);
+
+-- Ontário (ID do estado: 52)
+INSERT INTO cidade (nomeCidade, FK_idEstado) 
+VALUES ("Toronto", 52);
+
+COMMIT;

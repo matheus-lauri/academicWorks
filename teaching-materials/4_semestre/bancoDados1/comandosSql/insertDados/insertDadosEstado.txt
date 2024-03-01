@@ -1,0 +1,88 @@
+START TRANSACTION;
+
+-- Insira os estados dos EUA
+-- Região Sudeste
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Alabama', 'AL');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Alasca', 'AK');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Arkansas', 'AR');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Arizona', 'AZ');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Califórnia', 'CA');
+
+-- Região Centro-Oeste
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Cansas', 'KS');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Carolina do Norte', 'NC');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Carolina do Sul', 'SC');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Colorado', 'CO');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Conecticute', 'CT');
+
+-- Região Dakota
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Dacota do Norte', 'ND');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Dacota do Sul', 'SD');
+
+-- Região Nordeste
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Delaware', 'DE');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Flórida', 'FL');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Geórgia', 'GA');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Havaí', 'HI');
+
+-- Região Centro-Norte
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Idaho', 'ID');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Ilha de Rodes', 'RI');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Ilinóis', 'IL');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Indiana', 'IN');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Iowa', 'IA');
+
+-- Região Sudeste
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Kentucky', 'KY');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Luisiana', 'LA');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Maine', 'ME');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Marilândia', 'MD');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Massachussets', 'MA');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Michigan', 'MI');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Minesota', 'MN');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Mississípi', 'MS');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Missúri', 'MO');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Montana', 'MT');
+
+-- Região Centro-Oeste
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Nebrasca', 'NE');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Nevada', 'NV');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Nova Hampshire', 'NH');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Nova Jérsei', 'NJ');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Nova Iorque', 'NY');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Novo México', 'NM');
+
+-- Região Centro-Norte
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Oklahoma', 'OK');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Ohio', 'OH');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Óregon', 'OR');
+
+-- Região Nordeste
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Pensilvânia', 'PA');
+
+-- Região Sudeste
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Tenessi', 'TN');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Texas', 'TX');
+
+-- Região Centro-Oeste
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Utah', 'UT');
+
+-- Região Nordeste
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Vermonte', 'VT');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Virgínia', 'VA');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Virgínia Ocidental', 'WV');
+
+-- Região Oeste
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Washington', 'WA');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Wisconsin', 'WI');
+INSERT INTO estado (nomeEstado, siglaEstado) VALUES ('Wyoming', 'WY');
+
+-- Distrito Colúmbia(Distrito Federal dos EUA)
+INSERT INTO estado (nomeEstado, siglaEstado) 
+VALUES ("Distrito Colúmbia", "DC");
+
+-- Ontário(estado Canadense aonde fica localizado a arena do Toronto Raptors)
+INSERT INTO estado (nomeEstado, siglaEstado) 
+VALUES ("Ontário", "ON");
+
+COMMIT;

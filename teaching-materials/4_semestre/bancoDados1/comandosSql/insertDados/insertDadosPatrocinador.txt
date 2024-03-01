@@ -1,0 +1,118 @@
+START TRANSACTION;
+
+-- Insira os patrocinadores dos times da NBA
+-- Atlanta Hawks
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('SHARECARE', 1);
+
+-- Boston Celtics
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('General Electrics', 1);
+
+-- Brooklyn Nets
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Infor', 1);
+
+-- Charlotte Hornets
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Lendingtree', 1);
+
+-- Chicago Bulls
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Zenni', 1);
+
+-- Cleveland Cavaliers
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('GoodYear', 1);
+
+-- Dallas Mavericks
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('5Miles', 1);
+
+-- Denver Nuggets
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Western Union', 1);
+
+-- Detroit Pistons
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Flagstar Bank', 1);
+
+-- Golden State Warriors
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Rakuten', 1);
+
+-- Houston Rockets
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Rokit', 1);
+
+-- Indiana Pacers
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Motorola', 1);
+
+-- Los Angeles Clippers
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Bumble', 1);
+
+-- Los Angeles Lakers
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Wish', 1);
+
+-- Memphis Grizzlies
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('FedEx', 1);
+
+-- Miami Heat
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Ultimate Software', 1);
+
+-- Milwaukee Bucks
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Harley-Davidson', 1);
+
+-- Minnesota Timberwolves
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('FitBit', 1);
+
+-- New Orleans Pelicans
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Zatarain''s', 1);
+
+-- New York Knicks
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Squarespace', 1);
+
+-- Oklahoma City Thunder
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Loves Travel Stores', 1);
+
+-- Orlando Magic
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Disney', 1);
+
+-- Philadelphia 76ers
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('StubHub', 1);
+
+-- Phoenix Suns
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('PayPal', 1);
+
+-- Portland TrailBlazers
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Biofreeze', 1);
+
+-- Sacramento Kings
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Blue Diamond Almonds', 1);
+
+-- San Antonio Spurs
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Frost', 1);
+
+-- Toronto Raptors
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Sun Life', 1);
+
+-- Utah Jazz
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('5 for the Fight', 1);
+
+-- Washington Nationals
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador) VALUES ('Geico', 1);
+
+-- Inserir novos patrocinadores que patrocinam somente jogadores
+INSERT INTO patrocinador (nomePatrocinador, statusPatrocinador)
+VALUES
+    ('Nike', 1),
+    ('Adidas', 1),
+    ('Puma', 1),
+    ('Under Armour', 1),
+    ('Reebok', 1),
+    ('New Balance', 1),
+    ('Jordan', 1),
+    ('Converse', 1),
+    ('Vans', 1),
+    ('Oakley', 1),
+    ('Gatorade', 1),
+    ('Coca-Cola', 1),
+    ('Pepsi', 1),
+    ('Dr. Pepper', 1),
+    ('Red Bull', 1),
+    ('Monster Energy', 1),
+    ('McDonald''s', 1),
+    ('Burger King', 1),
+    ('Wendy''s', 1),
+    ('Subway', 1);
+
+COMMIT;
