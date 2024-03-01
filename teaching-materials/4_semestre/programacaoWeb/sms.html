@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<script>
+
+const accountSid = 'ACd849a90008a455381cee66d4ff730a81';
+const authToken = '5bc02d41665edda3c2343880c6799e82';
+const twilioNumber = '+12293608725';
+const recipientNumber = 'xyz';
+const messageBody = 'Fazendo um teste';
+
+const url = `https://api.twilio.com/2010-04-01/Accounts/${accountSid}/Messages.json`;
+
+const headers = new Headers();
+headers.set('Authorization', 'Basic ' + btoa(`${accountSid}:${authToken}`));
+headers.set('Content-Type', 'application/x-www-form-urlencoded');
+
+const body = new URLSearchParams();
+body.set('From', twilioNumber);
+body.set('To', recipientNumber);
+body.set('Body', messageBody);
+
+fetch(url, {
+  method: 'POST',
+  headers: headers,
+  body: body
+})
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
+
+
+</script>
+
+</body>
+</html>
+
+
