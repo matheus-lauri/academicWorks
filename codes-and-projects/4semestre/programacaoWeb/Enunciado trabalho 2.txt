@@ -1,0 +1,15 @@
+Alterar a página Meteora para consumir:
+a) os serviços geolocalização e temperatura.
+b) o serviço de envio de sms.
+c) um serviço de envio de email.
+d) um serviço aleatório de escolha da dupla.
+
+crie novas páginas dentro do sistema da Meteora para acomodar estes serviços.
+
+Alguns exemplos de APIs:
+
+NASA Astronomy Picture of the Day - https://api.nasa.gov/planetary/apod
+Chuck Norris - https://api.chucknorris.io/jokes/random
+Twitter - https://developer.twitter.com/en/docs/twitter-api
+
+você pode buscar outras.
