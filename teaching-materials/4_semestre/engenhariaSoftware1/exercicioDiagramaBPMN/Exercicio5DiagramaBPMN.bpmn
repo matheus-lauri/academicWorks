@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1yv6ghg" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="14.0.0">
+  <bpmn:collaboration id="Collaboration_1ehoaif">
+    <bpmn:participant id="Participant_14dout4" name="Exercicio 5" processRef="Process_012b5wv" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_012b5wv" isExecutable="false">
+    <bpmn:task id="Activity_0wmlxix" name="Fornecer mecanismos de registro de usuários">
+      <bpmn:incoming>Flow_05whjcj</bpmn:incoming>
+      <bpmn:outgoing>Flow_0jftxhh</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:startEvent id="StartEvent_00ow0v6">
+      <bpmn:outgoing>Flow_05whjcj</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Activity_1kp4xl9" name="Fornecer uma maneira de bloquear / desbloquear bicicletas">
+      <bpmn:incoming>Flow_0jftxhh</bpmn:incoming>
+      <bpmn:outgoing>Flow_1caf5vd</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Activity_0wn05qc" name="Fornecer mecanismos de rastreamento para as bicicletas">
+      <bpmn:incoming>Flow_1caf5vd</bpmn:incoming>
+      <bpmn:outgoing>Flow_0gubl5i</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Activity_0k15402" name="Fornecer mecanismos recompensador es aos usuários">
+      <bpmn:incoming>Flow_0gubl5i</bpmn:incoming>
+      <bpmn:outgoing>Flow_0iptwwj</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_05whjcj" sourceRef="StartEvent_00ow0v6" targetRef="Activity_0wmlxix" />
+    <bpmn:sequenceFlow id="Flow_0jftxhh" sourceRef="Activity_0wmlxix" targetRef="Activity_1kp4xl9" />
+    <bpmn:sequenceFlow id="Flow_1caf5vd" sourceRef="Activity_1kp4xl9" targetRef="Activity_0wn05qc" />
+    <bpmn:sequenceFlow id="Flow_0gubl5i" sourceRef="Activity_0wn05qc" targetRef="Activity_0k15402" />
+    <bpmn:endEvent id="Event_0x54c7n">
+      <bpmn:incoming>Flow_0iptwwj</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_0iptwwj" sourceRef="Activity_0k15402" targetRef="Event_0x54c7n" />
+    <bpmn:textAnnotation id="TextAnnotation_019b1uw">
+      <bpmn:text>Feito na hora;</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id="TextAnnotation_0d54isb">
+      <bpmn:text>Dispositivo dedicado; Comunicação móvel (Código de desbloqueio);</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id="TextAnnotation_1p1inkw">
+      <bpmn:text>Sistema de Posicionamento Global (GPS); Identificação
+por
+radiofrequência (RFID);</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id="TextAnnotation_1lvp7gk">
+      <bpmn:text>Contribuir para facilitar a (re) distribuição de bicicletas entre diferentes estações de
+bicicletas</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:association id="Association_00uigcq" sourceRef="Activity_0wmlxix" targetRef="TextAnnotation_019b1uw" />
+    <bpmn:association id="Association_0glqw57" sourceRef="Activity_1kp4xl9" targetRef="TextAnnotation_0d54isb" />
+    <bpmn:association id="Association_0r87fk8" sourceRef="Activity_0wn05qc" targetRef="TextAnnotation_1p1inkw" />
+    <bpmn:association id="Association_165j2mt" sourceRef="Activity_0k15402" targetRef="TextAnnotation_1lvp7gk" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1ehoaif">
+      <bpmndi:BPMNShape id="Participant_14dout4_di" bpmnElement="Participant_14dout4" isHorizontal="true">
+        <dc:Bounds x="156" y="62" width="914" height="298" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0wmlxix_di" bpmnElement="Activity_0wmlxix">
+        <dc:Bounds x="330" y="90" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_00ow0v6">
+        <dc:Bounds x="206" y="112" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1kp4xl9_di" bpmnElement="Activity_1kp4xl9">
+        <dc:Bounds x="500" y="90" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0wn05qc_di" bpmnElement="Activity_0wn05qc">
+        <dc:Bounds x="670" y="90" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0k15402_di" bpmnElement="Activity_0k15402">
+        <dc:Bounds x="840" y="90" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_019b1uw_di" bpmnElement="TextAnnotation_019b1uw">
+        <dc:Bounds x="330" y="220" width="100" height="30" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_0d54isb_di" bpmnElement="TextAnnotation_0d54isb">
+        <dc:Bounds x="500" y="220" width="100" height="98" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_1p1inkw_di" bpmnElement="TextAnnotation_1p1inkw">
+        <dc:Bounds x="670" y="220" width="100" height="113" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_1lvp7gk_di" bpmnElement="TextAnnotation_1lvp7gk">
+        <dc:Bounds x="840" y="220" width="100" height="113" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0x54c7n_di" bpmnElement="Event_0x54c7n">
+        <dc:Bounds x="992" y="112" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_05whjcj_di" bpmnElement="Flow_05whjcj">
+        <di:waypoint x="242" y="130" />
+        <di:waypoint x="330" y="130" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0jftxhh_di" bpmnElement="Flow_0jftxhh">
+        <di:waypoint x="430" y="130" />
+        <di:waypoint x="500" y="130" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1caf5vd_di" bpmnElement="Flow_1caf5vd">
+        <di:waypoint x="600" y="130" />
+        <di:waypoint x="670" y="130" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0gubl5i_di" bpmnElement="Flow_0gubl5i">
+        <di:waypoint x="770" y="130" />
+        <di:waypoint x="840" y="130" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_00uigcq_di" bpmnElement="Association_00uigcq">
+        <di:waypoint x="380" y="170" />
+        <di:waypoint x="380" y="220" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_0glqw57_di" bpmnElement="Association_0glqw57">
+        <di:waypoint x="550" y="170" />
+        <di:waypoint x="550" y="220" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_0r87fk8_di" bpmnElement="Association_0r87fk8">
+        <di:waypoint x="720" y="170" />
+        <di:waypoint x="720" y="220" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_165j2mt_di" bpmnElement="Association_165j2mt">
+        <di:waypoint x="890" y="170" />
+        <di:waypoint x="890" y="220" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0iptwwj_di" bpmnElement="Flow_0iptwwj">
+        <di:waypoint x="940" y="130" />
+        <di:waypoint x="992" y="130" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
