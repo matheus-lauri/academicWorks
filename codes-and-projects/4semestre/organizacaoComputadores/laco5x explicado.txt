@@ -1,0 +1,63 @@
+<Primeiro passo adicionar as configurações da organização 1>
+U 4
+J 3
+B 3
+L 5
+S 4
+I 4
+R 4
+Clock 5 ns
+
+<Segundo passo adicionar as configurações da organização 2>
+U 5
+J 5
+B 5
+L 5
+S 5
+I 5
+R 5
+Clock 4 ns
+
+<Terceiro passo extrair as informações do dump file>
+00000000010100000000010000010011 addi s0, zero, 5 (4) | addi s0, zero, 5 (5) 
+00000000101000000000010010010011 addi s1, zero, 10 (4) | addi s1, zero, 10 (5) 
+00000000100000101000100001100011 beq  t0, s0, fim (3) | beq  t0, s0, fim (5)
+00000000010101001000010010110011 add  s1, s1, t0 (4) | add  s1, s1, t0 (5)
+00000000000100101000001010010011 addi t0, t0, 1 (4) | addi t0, t0, 1 (5) 
+11111111010111111111000001101111 jal  zero, for (3) | jal  zero, for (5) 
+00000000100000101000100001100011 beq  t0, s0, fim (3) | beq  t0, s0, fim (5)
+00000000010101001000010010110011 add  s1, s1, t0 (4) | add  s1, s1, t0 (5)
+00000000000100101000001010010011 addi t0, t0, 1 (4) | addi t0, t0, 1 (5) 
+11111111010111111111000001101111 jal  zero, for (3) | jal  zero, for (5) 
+00000000100000101000100001100011 beq  t0, s0, fim (3) | beq  t0, s0, fim (5)
+00000000010101001000010010110011 add  s1, s1, t0 (4) | add  s1, s1, t0 (5)
+00000000000100101000001010010011 addi t0, t0, 1 (4) | addi t0, t0, 1 (5) 
+11111111010111111111000001101111 jal  zero, for (3) | jal  zero, for (5) 
+00000000100000101000100001100011 beq  t0, s0, fim (3) | beq  t0, s0, fim (5)
+00000000010101001000010010110011 add  s1, s1, t0 (4) | add  s1, s1, t0 (5)
+00000000000100101000001010010011 addi t0, t0, 1 (4) | addi t0, t0, 1 (5) 
+11111111010111111111000001101111 jal  zero, for (3) | jal  zero, for (5) 
+00000000100000101000100001100011 beq  t0, s0, fim (3) | beq  t0, s0, fim (5)
+00000000010101001000010010110011 add  s1, s1, t0 (4) | add  s1, s1, t0 (5)
+00000000000100101000001010010011 addi t0, t0, 1 (4) | addi t0, t0, 1 (5) 
+11111111010111111111000001101111 jal  zero, for (3) | jal  zero, for (5) 
+00000000100000101000100001100011 beq  t0, s0, fim (3) | beq  t0, s0, fim (5)
+
+<Quarto passo organizar as informações>
+organização 1
+I = soma das instruções: 23, pois o código possui 23 instruções, ou seja, linhas de código.
+Ciclos = 83 ciclos
+CPI = Ciclos/I = 3,608695652173913
+Texec = IxCPIxClock = 332 ns
+
+organização 2
+I = soma das instruções: 23, pois o código possui 23 instruções, ou seja, linhas de código.
+Ciclos = 115 ciclos
+CPI = Ciclos/I = 5
+Texec = IxCPIxClock = 460 ns
+
+<Passo cinco conclusão>
+Desempenho = (mais lento) / (mais rápido) = 460/332 = 1,385542168674699 x mais rápido
+Logo a arquitetura 1 é 1,38x mais rápida.
+Sendo o CPI da organização 1 igual a 3,60 e o CPI da organização 2 igual a 5
+
