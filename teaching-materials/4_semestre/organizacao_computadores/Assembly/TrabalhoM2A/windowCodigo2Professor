@@ -1,0 +1,19 @@
+Address     Code        Basic                        Line Source
+
+0x00400000  0x03c0006f  jal x0,0x0000003c            4    jal zero, main
+0x00400004  0xff810113  addi x2,x2,0xfffffff8        7    		addi sp,sp,-8	    # atualiza sp (push 2 itens)
+0x00400008  0x00112023  sw x1,0(x2)                  8    		sw   ra,0(sp)	    # - push ra
+0x0040000c  0x00a12223  sw x10,4(x2)                 9    		sw   a0,4(sp)	    # - push a0
+0x00400010  0x00100293  addi x5,x0,1                 10   		addi t0,zero,1	    # testa se n<1
+0x00400014  0x00a2c663  blt x5,x10,0x0000000c        11   		bgt  a0,t0,ret_n1   # se n>1, desvia para ret_n1
+0x00400018  0x00100593  addi x11,x0,1                12   		addi a1,zero,1      # retorna o valor 1
+0x0040001c  0x000080e7  jalr x1,x1,0                 13   		jalr ra, 0          # retorna para depois de jal
+0x00400020  0xfff50513  addi x10,x10,0xffffffff      16   		addi a0,a0,-1	    # n>=1, a0 = n-1
+0x00400024  0xfe1ff0ef  jal x1,0xffffffe0            17   		jal  fat_rec	    # chama fat_rec(n-1)
+0x00400028  0x00012083  lw x1,0(x2)                  18   		lw   ra,0(sp)	    # - pop ra
+0x0040002c  0x00412503  lw x10,4(x2)                 19   		lw   a0,4(sp)	    # - pop a2  (ou seja, n)
+0x00400030  0x02a585b3  mul x11,x11,x10              20   		mul  a1,a1,a0       # retorna n*fact(n-1)
+0x00400034  0x00810113  addi x2,x2,8                 21   		addi sp,sp,8        # atualiza sp (pop 2 itens)
+0x00400038  0x000080e7  jalr x1,x1,0                 22   		jalr   ra, 0        # retorna para o chamador
+0x0040003c  0x00500513  addi x10,x0,5                25   	addi a0, zero, 5
+0x00400040  0xfc5ff0ef  jal x1,0xffffffc4            26   	jal ra, fat_rec
