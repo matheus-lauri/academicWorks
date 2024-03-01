@@ -1,0 +1,75 @@
+ALTER TABLE cidade
+ADD CONSTRAINT FK_idEstado
+FOREIGN KEY (FK_idEstado) REFERENCES estado(idEstado);
+
+ALTER TABLE arena
+ADD CONSTRAINT FK_idCidade
+FOREIGN KEY (FK_idCidade) REFERENCES cidade(idCidade);
+
+ALTER TABLE partida
+ADD CONSTRAINT FK_idArena
+FOREIGN KEY (FK_idArena) REFERENCES arena(idArena);
+
+ALTER TABLE partida
+ADD CONSTRAINT FK_idTemporada2
+FOREIGN KEY (FK_idTemporada) REFERENCES temporada(idTemporada);
+
+ALTER TABLE partida
+ADD CONSTRAINT FK_idEquipeCasa
+FOREIGN KEY (FK_idEquipeCasa) REFERENCES equipe(idEquipe);
+
+ALTER TABLE partida
+ADD CONSTRAINT FK_idEquipeVisitante
+FOREIGN KEY (FK_idEquipeVisitante) REFERENCES equipe(idEquipe);
+
+ALTER TABLE equipe
+ADD CONSTRAINT FK_idPatrocinador
+FOREIGN KEY (FK_idPatrocinador) REFERENCES patrocinador(idPatrocinador);
+
+ALTER TABLE equipe
+ADD CONSTRAINT FK_idClassificacao
+FOREIGN KEY (FK_idClassificacao) REFERENCES classificacao(idClassificacao);
+
+ALTER TABLE equipe
+ADD CONSTRAINT FK_idArena2
+FOREIGN KEY (FK_idArena) REFERENCES arena(idArena);
+
+ALTER TABLE treinador
+ADD CONSTRAINT FK_idEquipe
+FOREIGN KEY (FK_idEquipe) REFERENCES equipe(idEquipe);
+
+ALTER TABLE patrocinador_jogador
+ADD CONSTRAINT FK_idPatrocinador2
+FOREIGN KEY (FK_idPatrocinador) REFERENCES patrocinador(idPatrocinador);
+
+ALTER TABLE patrocinador_jogador
+ADD CONSTRAINT FK_idJogador
+FOREIGN KEY (FK_idJogador) REFERENCES jogador(idJogador);
+
+ALTER TABLE jogador
+ADD CONSTRAINT FK_idEquipe2
+FOREIGN KEY (FK_idEquipe) REFERENCES equipe(idEquipe);
+
+ALTER TABLE jogador_lesao
+ADD CONSTRAINT FK_idJogador2
+FOREIGN KEY (FK_idJogador) REFERENCES jogador(idJogador);
+
+ALTER TABLE jogador_lesao
+ADD CONSTRAINT FK_idLesao
+FOREIGN KEY (FK_idLesao) REFERENCES lesao(idLesao);
+
+ALTER TABLE premiacao_jogador_temporada
+ADD CONSTRAINT FK_idPremiacao
+FOREIGN KEY (FK_idPremiacao) REFERENCES premiacao(idPremiacao);
+
+ALTER TABLE premiacao_jogador_temporada
+ADD CONSTRAINT FK_idJogador3
+FOREIGN KEY (FK_idJogador) REFERENCES jogador(idJogador);
+
+ALTER TABLE premiacao_jogador_temporada
+ADD CONSTRAINT FK_idTemporada3
+FOREIGN KEY (FK_idTemporada) REFERENCES temporada(idTemporada);
+
+ALTER TABLE classificacao
+ADD CONSTRAINT FK_idTemporada
+FOREIGN KEY (FK_idTemporada) REFERENCES temporada(idTemporada);

@@ -1,0 +1,32 @@
+-- Inserção de arenas na tabela "arena"
+INSERT INTO arena (nomeArena, capacidadeArena, statusArena, FK_idCidade)
+VALUES
+    ('State Farm Arena', 18729, 1, 72),  -- Atlanta
+    ('TD Garden', 19580, 1, 127),  -- Boston
+    ('Barclays Center', 17732, 1, 177),  -- Brooklyn - Nova Iorque -- parei de verificar aqui
+    ('Spectrum Center', 19068, 1, 32),  -- Charlotte
+    ('United Center', 20917, 1, 92),  -- Chicago
+    ('Rocket Mortgage FieldHouse', 19432, 1, 13),  -- Cleveland
+    ('American Airlines Center', 19200, 1, 214),  -- Dallas
+    ('Ball Arena', 19520, 1, 42),  -- Denver
+    ('Little Caesars Arena', 20491, 1, 134),  -- Detroit
+    ('Chase Center', 18064, 1, 5),  -- San Francisco
+    ('Toyota Center', 18055, 1, 43),  -- Houston
+    ('Bankers Life FieldHouse', 17900, 1, 97),  -- Indianapolis
+    ('Crypto.com Arena', 19068, 1, 26),  -- Los Angeles
+    ('FedEx Forum', 17794, 1, 112),  -- Memphis
+    ('Kaseya Center', 19600, 1, 68),  -- Miami
+    ('Fiserv Forum', 17500, 1, 242),  -- Milwaukee
+    ('Target Center', 19356, 1, 137),  -- Minneapolis
+    ('Smoothie King Center', 16867, 1, 34),  -- New Orleans
+    ('Madison Square Garden', 19812, 1, 177),  -- New York
+    ('Chesapeake Energy Arena', 18203, 1, 114),  -- Oklahoma City
+    ('Amway Center', 18846, 1, 70),  -- Orlando
+    ('Footprint Center', 18055, 1, 163),  -- Phoenix
+    ('Wells Fargo Center', 20478, 1, 107),  -- Philadelphia
+    ('Moda Center', 19441, 1, 117),  -- Portland
+    ('Golden 1 Center', 17317, 1, 121),  -- Sacramento
+    ('AT&T Center', 18418, 1, 214),  -- San Antonio
+    ('Scotiabank Arena', 19800, 1, 252),  -- Toronto
+    ('Vivint Smart Home Arena', 18306, 1, 44),  -- Salt Lake City
+    ('Capital One Arena', 20356, 1, 202);  -- Washington

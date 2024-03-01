@@ -1,0 +1,109 @@
+CREATE TABLE Estado(
+    idEstado int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nomeEstado varchar(100),
+    siglaEstado varchar(2)
+);
+
+CREATE TABLE Cidade(
+    idCidade int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nomeCidade varchar(100),
+    FK_idEstado int
+);
+
+CREATE TABLE Arena(
+    idArena int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nomeArena varchar(100),
+    capacidadeArena int,
+    statusArena TINYINT,
+    FK_idCidade int
+);
+
+CREATE TABLE Partida(
+    idPartida int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    dataPartida date,
+    horaPartida time,
+    pontosEquipeVisitante int,
+    pontosEquipeCasa int,
+    FK_idArena int,
+    FK_idTemporada int,
+    FK_idEquipeCasa int,
+    FK_idEquipeVisitante int
+);
+
+CREATE TABLE Equipe(
+    idEquipe int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nomeEquipe varchar(100),
+    anoFundacaoEquipe int,
+    statusEquipe TINYINT,
+    FK_idPatrocinador int,
+    FK_idClassificacao int,
+    FK_idArena int
+);
+
+CREATE TABLE Treinador(
+    idTreinador INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nomeTreinador varchar(100),
+    dataNascimentoTreinador DATE,
+    statusTreinador TINYINT,
+    FK_idEquipe int
+);
+
+CREATE TABLE Patrocinador(
+    idPatrocinador INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nomePatrocinador varchar(100),
+    statusPatrocinador TINYINT
+);
+
+CREATE TABLE patrocinador_jogador(
+    FK_idPatrocinador int,
+    FK_idJogador int
+);
+
+CREATE TABLE Jogador(
+    idJogador INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nomeJogador varchar(100),
+    dataNascimentoJogador DATE,
+    posicaoJogador varchar(45),
+    alturaJogador double,
+    pesoJogador double,
+    statusJogador TINYINT,
+    FK_idEquipe int
+);
+
+CREATE TABLE jogador_lesao(
+    FK_idJogador int,
+    FK_idLesao int
+);
+
+CREATE TABLE Lesao(
+    idLesao INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    descricaoLesao VARCHAR(200),
+    dataLesao date,
+    statusLesao TINYINT
+);
+
+CREATE TABLE premiacao_jogador_temporada(
+    FK_idPremiacao int,
+    FK_idJogador int,
+    FK_idTemporada int
+);
+
+CREATE TABLE Premiacao(
+    idPremiacao INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nomePremiacao varchar(100)
+);
+
+CREATE TABLE Temporada(
+    idTemporada INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    anoTemporada VARCHAR(9),
+    statusTemporada TINYINT
+);
+
+CREATE TABLE Classificacao(
+    idClassificacao INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    pontosClassificacao INT,
+    jogosClassificacao INT,
+    vitoriasClassificacao INT,
+    derrotasClassificacao INT,
+    FK_idTemporada int
+);
