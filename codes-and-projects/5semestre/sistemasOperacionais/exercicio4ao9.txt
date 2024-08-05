@@ -1,0 +1,50 @@
+ex4:
+	Criação de um novo processo filho: O comando fork() cria um novo processo idêntico ao processo pai. Esse processo filho começa a execução a partir do ponto em que o processo pai chamou fork(). O novo processo recebe uma cópia do espaço de endereçamento do processo pai.
+
+Atualização na visualização do htop: Após a chamada de fork(), você verá que outro processo foi adicionado à lista de processos no htop. O processo filho será exibido como um novo processo, geralmente com um ID de processo (PID) diferente do processo pai, mas com os mesmos recursos e informações iniciais.
+
+Consumo de recursos: Ambos os processos, pai e filho, compartilham recursos do sistema operacional. Isso inclui CPU, memória, tempo de execução, etc. Portanto, ao chamar fork(), você está essencialmente dividindo os recursos disponíveis entre dois processos.
+
+ex5: 
+	Execução concluída com sucesso(praticamente instantanea)! O servidor recebeu o dado muito rapido e logo em seguida já devolveu o dado de volta para o cliente.
+
+ex6: 
+	Execução concluída com sucesso(praticamente instantanea)! O produtor foi executado e logo em seguida o consumidor foi executado e recebeu a mensagem completa do produtor.
+
+ex7:
+
+Pipe, compartilhamento de memória e fila de mensagens são diferentes mecanismos de comunicação interprocessual em sistemas Unix/Linux. Cada um tem suas próprias características e é adequado para diferentes cenários de uso. Vou explicar brevemente cada um e discutir as diferenças:
+
+Pipe:
+	Um pipe é um mecanismo de comunicação unidirecional, usado para transferir dados entre processos.
+Existem dois tipos de pipes: pipes anônimos e pipes nomeados.
+Os pipes anônimos são criados usando a função pipe() e só podem ser usados entre processos relacionados, como processos pai e filho.
+Os pipes nomeados (também conhecidos como FIFOs) são criados no sistema de arquivos e podem ser usados para comunicação entre processos não relacionados.
+Os pipes têm uma capacidade limitada de buffer, o que pode causar bloqueios se o buffer estiver cheio.
+Os pipes são eficientes para comunicação entre processos relacionados que precisam de uma comunicação rápida e simples.
+
+Compartilhamento de memória:
+
+	O compartilhamento de memória envolve a alocação de uma região de memória compartilhada entre processos.
+Os processos podem escrever e ler diretamente nessa região de memória compartilhada, evitando a necessidade de copiar dados entre processos.
+O compartilhamento de memória é mais eficiente em termos de desempenho, pois não há overhead associado à cópia de dados.
+No entanto, o compartilhamento de memória pode ser complexo de implementar e requer sincronização adequada para garantir a consistência dos dados.
+
+Fila de mensagens:
+
+	Uma fila de mensagens é um mecanismo de comunicação assíncrona, onde os processos podem enviar e receber mensagens.
+As mensagens são armazenadas em uma fila e podem ser lidas em uma ordem específica.
+As filas de mensagens geralmente são implementadas usando IPC (Inter-Process Communication) e são adequadas para comunicação entre processos não relacionados.
+As filas de mensagens oferecem mais flexibilidade do que os pipes em termos de comunicação entre diferentes processos.
+
+Qual é melhor depende do cenário de uso específico:
+
+	Se você precisa de comunicação rápida e simples entre processos relacionados, um pipe pode ser a melhor escolha.
+Se você precisa de alta performance e os processos compartilham muitos dados grandes e frequentemente, o compartilhamento de memória pode ser mais eficiente.
+Se você precisa de uma comunicação assíncrona entre processos não relacionados, onde as mensagens podem ser lidas em uma ordem específica, uma fila de mensagens pode ser a melhor opção.
+
+ex8:
+	Os dois testes de troca de dados obtiveram praticamente o mesmo tempo de execução, mas a nível de escolha o teste via memória compartilhada foi sutilmente mais rápido do que o pipe.
+
+ex9:
+	Não houve nenhum problema com a integridade dos dados durante a execução das duas técnicas de comunicação(troca de mensagem).
