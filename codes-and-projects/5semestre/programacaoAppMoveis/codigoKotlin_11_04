@@ -1,0 +1,33 @@
+/*fun mostrarLista(lista: List<String>){
+    println(lista.joinToString());
+}
+
+fun removerDoisPrimeirosCaracteres(pais: String): String {
+    if (pais.length < 2) {
+        return pais;
+    }
+    return pais.substring(2);
+}
+*/
+
+fun calcular(num1: Int, num2: Int, funcao: (Int, Int) -> Int): Int{
+    return funcao(num1,num2);
+}
+
+//fun soma(num1: Int, num2: Int): Int = a+b;
+
+fun main() {
+    //val listaPaises: List<String> = listOf("Brasil", "Estados Unidos", "Espanha", "Chile", "Mexico", "Alemanha");
+    //mostrarLista(listaPaises);
+    
+    //val listaPaisesSemDoisPrimeirosCaracteres: List<String> = listaPaises.map { removerDoisPrimeirosCaracteres(it) };
+    
+    //println(listaPaisesSemDoisPrimeirosCaracteres.joinToString());
+    
+    val soma = { a: Int, b: Int -> a + b };
+    
+    val num1: Int = 10;
+    val num2: Int = 10;
+    
+    println(calcular(num1,num2,soma));
+}

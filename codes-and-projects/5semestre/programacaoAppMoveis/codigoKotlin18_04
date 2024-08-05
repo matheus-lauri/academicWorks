@@ -1,0 +1,37 @@
+//código da aula do dia 18/04
+val h = 0.000000001;
+
+fun derivar(funcao: (Double) -> Double):(Double) -> Double{
+    return { a -> (funcao(a+h)- funcao(a))/h};
+}
+
+/*
+fun derivadaEm(x: Double, funcao: (Double) -> Double): Double{
+	return ((funcao(x+h)- funcao(x))/h);
+}
+
+fun elevaraoCubo(x: Double): Double{
+    return Math.pow(x, 3.00);
+}
+
+fun main() {
+    val x = 5.00;
+    println(derivadaEm(x, ::funcao));
+}
+*/
+
+//resolvendo com funcoes lambdas
+fun main() {
+    
+    //val elevaraoCubo = {x: Double->Math.pow(x, 3.00) };
+    //println(derivadaEm(x, elevaraoCubo));
+    
+    //val resultado = derivadaEm(x){x -> Math.pow(x, 3.00)}
+    //println(resultado);
+    
+    //val resultado = derivadaEm(x){Math.pow(it, 3.00)}
+    //println(resultado);
+    
+    val derivadaDaFuncao =  derivar({Math.pow(it,3.00)});
+    println(derivadaDaFuncao(5.00));
+}
