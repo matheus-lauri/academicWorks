@@ -1,7 +1,7 @@
 # academicWorks
 Welcome to my Graduation Repository! 📚🚀
 
-As I embark on my academic journey through college, I am excited to share with you a curated collection of exceptional teaching materials and programming projects that have shaped my learning experience. This repository serves as a testament to my dedication to education and passion for technology.
+My academic journey through college, I am excited to share with you a collection of teaching materials and projects that have shaped my learning experience. 
 
 📖 Teaching Materials: Inside this repository, you'll find a treasure trove of meticulously organized teaching materials covering various subjects and disciplines. From comprehensive lecture notes and insightful presentations to engaging assignments and hands-on lab exercises, these resources have been instrumental in deepening my understanding and nurturing my intellectual growth.
 
