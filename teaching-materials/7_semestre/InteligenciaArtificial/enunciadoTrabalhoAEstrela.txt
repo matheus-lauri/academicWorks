@@ -1,0 +1,9 @@
+Enunciado trabalho A*(Escrito pelo professor Denis):
+
+Utilizando o codigo passado em sala de aula, ou o mapa do labirinto em outras liguagens implentar:
+
+- Algoritmo de A*
+
+- Mostrar os nodos abertos e o path no mapa
+
+- Movimentar o agente sobre o path gerado

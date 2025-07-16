@@ -1,0 +1,3 @@
+Link do site que fala sobre precedência de operadores:
+
+https://en.cppreference.com/w/cpp/language/operator_precedence.html

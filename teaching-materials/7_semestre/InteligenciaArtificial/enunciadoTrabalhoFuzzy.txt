@@ -1,0 +1,15 @@
+Enunciado trabalho Fuzzy(Escrito pelo professor Denis):
+
+Utilizando o dataset movie_dataset.csv criar um sistema de regras fuzzy que crie um score para os filmes, esse score tem que ser aderente ao gosto de filmes de vocês. Assim os filmes que representem mais os gostos de vocês ficarão mais bem ranqueados.
+
+
+
+Para entrega fazer um documento com:
+
+- Nome dos membros da equipe (Máximo 4)
+
+- Link do video onde vocês apresentam o cádigo, video curto 2-3 minutos com foco nos conjuntos e nas regras. Mostrando tambem o resultado rankeado.
+
+- Lista dos 10 filmes mais bem ranqueados pela logica de vocês
+
+- Código fonte 

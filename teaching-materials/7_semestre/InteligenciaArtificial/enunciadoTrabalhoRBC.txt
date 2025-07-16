@@ -1,0 +1,18 @@
+Enunciado trabalho RBC(escrito pelo professor Rudimar):
+
+Programar um protótipo de RBC para um tema definido pela equipe. Devem ser determinados pela equipe todos os componentes de um RBC até a recuperação do caso. As definições técnicas devem ser justificadas pela equipe, fundamentando com pesquisas na área.
+O trabalho deve ser entregue (programa e executável) junto com o link de um vídeo da apresentação do trabalho desenvolvido pelo grupo. 
+Grupos de até 3 integrantes.
+Observação importante:
+- Na aula anterior a entrega todas as equipes deverão mostrar a modelagem do RBC, com a definição de atributos, pesos e métricas de similaridade a serem utilizadas. As equipes que não mostrarem os detalhes do modelo perderão pontos na avaliação do trabalho.
+- A entrega do programa (fonte e executável)e link do vídeo da apresentação devem ser feitos no sistema, até o horário de postagem. 
+
+
+
+ A implementação é em linguagem de programação. Com a linguagem que a equipe escolher, pois os procedimentos são simples e podem ser implementados em qualquer linguagem (não é uma planilha de Excel).
+
+Tem que apresentar a modelagem indicando os atributos, valores possíveis e como eles são comparados (métrica de similaridade local). O programa tem que ter cadastrados numa base os casos (pelo menos 50). Um interface que permita alterar se o usuário quiser os pesos dos atributos e inserir o caso de entrada (que será comparado a todos os casos da base e calculado a similaridade com cada um deles). 
+
+---> A entrada de dados deve permitir ao usuário alterar os pesos (trazer os pesos propostos na modelagem como default). E entrar com os dados de entrada do problema.
+
+---> A saída deve mostrar o caso de entra e todos os casos da base em ordem de similaridade (do mais similar ao menos similar). Todos os atributos do caso devem ser apresentados e o % de similaridade com o caso de entrada.

@@ -1,0 +1,45 @@
+#Options
+GenerateScanner = true
+GenerateParser = true
+Language = Java
+ScannerName = Lexico
+ParserName = Sintatico
+SemanticName = Semantico
+ScannerCaseSensitive = true
+ScannerTable = Full
+Input = String
+Parser = SLR
+#RegularDefinitions
+D : [0-9]
+#Tokens
+// Usando definições regulares
+LITERAL_INT : {D}+ 
+LITERAL_FLOAT : {D}+\.{D}+
+
+// Quantificador que NÃO funciona
+//ID_3_letras : [a-z]{3}
+// Ordem de avaliação
+//ID_3_letras : [a-z][a-z][a-z]
+
+// Special Case
+ID : [a-zA-Z][a-zA-Z0-9]*
+KEY_INT = ID : "int"
+KEY_FLOAT = ID : "float"
+
+
+// Tratamento dos espaços
+// Ignorar
+:[\n\r\t\s]*
+// Considerar
+//SPACE : \s*
+//LINE_FEED: \n*
+//CARRIAGE_RETURN: \r*
+//HORIZONTAL_TAB: \t*
+
+// Pontuadores
+LSB : \[
+RSB : \]
+
+#NonTerminals
+
+#Grammar

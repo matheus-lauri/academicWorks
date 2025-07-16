@@ -1,0 +1,11 @@
+Enunciado do trabalho de rede neurais(Escrito pelo professor Denis):
+
+Utilizando o dataset bank realizar as seguintes tarefas:
+
+- Treinar uma rede neural com o conjunto de treinamento "bank.csv" visando prever se o cliente ai fazer a aplicação.
+
+- Validar o treinamento com o dataset completo "bank-full.csv"
+
+- Calcular as estatísticas: Acurácia, Precisão, Revocação e F1 score
+
+- Lembrando que vocês estão sendo contratados para fazer a previsão, focando em otimizar a campanha de marqueting. Assim quanto melhor for o acerto, mais o cliente economiza e fica feliz.

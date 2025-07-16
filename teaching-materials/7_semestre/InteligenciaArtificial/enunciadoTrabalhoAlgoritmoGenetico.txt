@@ -1,0 +1,36 @@
+Enunciado trabalho Algoritmo Genético(escrito pelo professor Denis):
+
+Formato do arquivo(cotacoes_b3_202_05.csv):
+
+Data / Codigo Da Ação/ Cotação no fechamento 
+
+2025-04-01 00:00:00	B3SA3	12,26
+(OBS: Trabalhar só com ações, código de 5 alfanumericos)
+
+
+Objetivo do Trabalho:
+
+Calcular a alocação de ações dia a dia que gere a maior lucratividade.
+Dividir o valor total a ser investido em 10 potes(cada um contendo 1/10 do montante total)
+Cada pote será investido em uma ação, comprando no valor do dia, e vendendo no proximo dia. 
+
+dia 1 (compra)- dia 2(vende) - calcula valor resultante
+dia 3 (compra) -  dia 4 (vende) - calcula valor resultante
+(o datset possui só dias uteis, orde os dias uteis em sequencia, de 1 a 20~25)
+
+Algumas regras:
+- Todo dia de venda o montante geral é claculado e assim se gera os novos 10 potes, que serão investidos no dia seguinte
+- Valor inicial R$ 1000.00
+- Objetivo maximizar o valor final
+- Os potes podem ser investido na mesma ação
+
+---------- uma idéia de como estruturar o dna
+
+Imaginando que 24 dias uteis - seria 12 compra e venda
+
+dna - 12 gupos de 10 codigos = o seja 120 codigos
+oque seria os 10 codigos -  [codigo ação pote1, codigo ação pote 2, codigo acao pote 3...]
+
+
+Apresentar o trabalho para mim até o final da aula do dia 12/06/2025
+Trabalho realizado em grupo, podem ser os mesmos grupos, ou se altereram me avisem.
